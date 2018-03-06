@@ -1,0 +1,304 @@
+/*
+margin
+padding
+height
+width
+float
+clear
+fonts
+color
+background-color
+border-style
+border-color
+border-width
+*/
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 11pt;
+  color: white;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+
+/**********
+ * LAYOUT *
+ **********/
+
+#left {
+  height: 100%;
+  width: 66%;
+  float: left;
+  background-color: green;
+}
+
+#rounds {
+  padding: 15px 0px 15px 0px;
+  height: 10%;
+  width: 80%;
+  float: left;
+  background-color: #1C1C1C;
+}
+
+.round {
+  height: 100%;
+  width: 3.225%;
+  float: left;
+  background-color: #1C1C1C;
+}
+
+.terrorists {
+  color: black;
+  background-color: #F0C557;
+}
+
+.cts {
+  color: black;
+  background-color: #88C3F3;
+}
+
+.winReason {
+  height: auto;
+  width: 100%;
+}
+
+#roundall {
+  color: black;
+  background: linear-gradient(to right, #F0C557, #88C3F3);
+  background: linear-gradient(to top, #F0C557 0%, #F0C557 50%, #000000 50%, #88C3F3 50%, #88C3F3 100%);
+  background-color: white;
+}
+
+#economy {
+  padding: 15px 0px 15px 5px;
+  height: 10%;
+  width: 10%;
+  float: left;
+  background-color: #1C1C1C;
+}
+
+#economyBtn {
+  height: 100%;
+  width: 100%;
+  background-color: #1C1C1C;
+}
+
+#economyVisual {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  height: 50%;
+  width: 66%;
+  z-index: 1;
+  background-color: #1C1C1C;
+  border: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+#map {
+  padding: 15px 0px 15px 5px;
+  height: 10%;
+  width: 10%;
+  float: left;
+  background-color: #1C1C1C;
+}
+
+#mapBtn {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  background-color: #1C1C1C;
+}
+
+#mapVisual {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  height: 70%;
+  width: 70%;
+  z-index: 1;
+  background-color: #1C1C1C;
+  border: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+#mapOptions {
+  height: 100%;
+  width: 20%;
+  float: left;
+  background-color: purple;
+}
+
+#mapGraph {
+  height: 100%;
+  width: 80%;
+  float: left;
+  background-color: pink;
+}
+
+.image {
+  height: 100%;
+  width: auto;
+}
+
+#media {
+  height: 90%;
+  width: 100%;
+  float: left;
+  background-color: black;
+  border: none;
+}
+
+#sidebar {
+  padding: 15px;
+  height: 100%;
+  width: 34%;
+  float: right;
+  background-color: #1C1C1C;
+}
+
+#scoreboard {
+  height: 42%;
+  width: 100%;
+  float: left;
+  color: black;
+}
+
+#team1 {
+  width: 50%;
+  float: left;
+  background-color: #F0C557;
+}
+
+#team2 {
+  width: 50%;
+  float: left;
+  background-color: #88C3F3;
+}
+
+.player {
+  padding: 5px 5px 0px 5px;
+  float: left;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+#money {
+  padding: 1% 1px 1% 1px;
+  height: 11%;
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+.progress-bar-warning {
+  background-color: #F0C557;
+}
+
+.progress-bar-info {
+  background-color: #88C3F3;
+}
+
+#damage {
+  height: 23%;
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+#damageGraph {
+  margin-right: 25px;
+  height: 100%;
+}
+
+#adr {
+  height: 23%;
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+#adrGraph {
+  margin-right: 25px;
+  height: 100%;
+}
+
+/******************
+ * HELPER CLASSES *
+ ******************/
+
+.fill {
+  height: 99%;
+  width: 100%;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.middle-text {
+  text-align: center;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.left-float {
+  float: left;
+}
+
+.middle-float {
+  float: center;
+}
+
+.right-float {
+  float: right;
+}
+
+.TC1 {
+  width: 25%;
+  float: left;
+}
+
+.TC2 {
+  width: 50%;
+  float: left;
+}
+
+.TC3 {
+  width: 25%;
+  float: left;
+}
+
+.close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  color: white;
+  text-shadow: none;
+  z-index: 1;
+}
