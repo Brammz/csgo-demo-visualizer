@@ -6,6 +6,7 @@ This tool is developed as part of my master's thesis at the KULeuven, Belgium.
 
 ## TODO
 
+* Controlling YouTube or other video
 * First round economy money + kloppen andere rondes?
 * Heatmap (contact dev)
 * Pathing
@@ -16,6 +17,7 @@ This tool is developed as part of my master's thesis at the KULeuven, Belgium.
 ## Technologies used
 
 * [React](https://reactjs.org/) - JavaScript library used for the web development.
+* [React-player](https://github.com/CookPete/react-player) - Used for playing and controlling the video.
 * [React-Highcharts](https://github.com/kirjs/react-highcharts) - [Highcharts](https://www.highcharts.com/) component used for different visualizations
 * [React-Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/) - Used for styling and money visualizations
 * [React-circular-progressbar](http://www.kevinqi.com/react-circular-progressbar/) - User for accuracy visualization

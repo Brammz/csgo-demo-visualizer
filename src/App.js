@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import ReactPlayer from 'react-player'
 import Rounds from './Components/Rounds';
 import EconomyVisualization from './Components/EconomyVisualization';
 import MapVisualization from './Components/MapVisualization';
-import Media from './Components/Media';
 import Sidebar from './Components/Sidebar';
 import './App.css';
 import roundsJSON from './json/nip-vs-faze-m4-overpass-rounds.json';
@@ -306,7 +306,17 @@ class App extends Component {
           <Rounds rounds={this.state.rounds} />
           <EconomyVisualization economy={this.state.economy} />
           <MapVisualization />
-          <Media />
+          <div id="media">
+            <ReactPlayer
+              className="fill"
+              url="https://www.youtube.com/watch?v=bPVpcZapu40"
+              controls="true"
+              width='100%'
+              height='100%'
+              onPlay={this.startMatch}
+              onPause={this.stopMatch}
+            />
+          </div>
         </div>
         <Sidebar scores={this.state.scores} money={this.state.money} damage={this.state.damage} />
       </div>
