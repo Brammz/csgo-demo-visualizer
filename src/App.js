@@ -11,23 +11,6 @@ import moneyJSON from './json/nip-vs-faze-m4-overpass-money.json';
 import damageJSON from './json/nip-vs-faze-m4-overpass-damage.json';
 import economyJSON from './json/nip-vs-faze-m4-overpass-economy.json';
 
-/* TODO
- *
- * - Economy
- * - Github repo
- * - First round economy money + kloppen andere rondes?
- * - Heatmap (contact dev)
- * - Pathing
- * - Default setup
- * - Highchart flow instead of switch on update?
- * - Switching teams
- *
- * NOTE
- * parser: parses the replay-file and creates a json-file for each visualization.
- * each json-file consists of timestamps at which the information was updated,
- * followed by all the information that is needed to create the corresponding
- * visualization.
- */
 class App extends Component {
 
   constructor() {

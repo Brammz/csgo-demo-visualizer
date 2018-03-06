@@ -2,6 +2,19 @@
 
 This tool visualizes different statistic from CSGO demo-files to aid the viewer in better understanding what happened.
 
+This tool is developed as part of my master's thesis at the KULeuven, Belgium.
+
+## TODO
+
+* Economy
+* Github repo
+* First round economy money + kloppen andere rondes?
+* Heatmap (contact dev)
+* Pathing
+* Default setup
+* Highchart flow instead of switch on update?
+* Switching teams
+
 ## Technologies used
 
 * [React](https://reactjs.org/) - JavaScript library used for the web development.
