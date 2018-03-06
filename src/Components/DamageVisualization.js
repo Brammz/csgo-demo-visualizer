@@ -97,6 +97,7 @@ class DamageVisualization extends Component {
         data: damageData
       }]
     };
+    
     let adrConfig = {
       credits: {
           enabled: false

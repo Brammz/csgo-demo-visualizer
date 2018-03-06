@@ -22,36 +22,73 @@ class EconomyVisualization extends Component {
   render() {
     const { economyHidden } = this.state;
     let economy = this.props.economy;
-    let terroristData = [];
-    let ctData = [];
+    let terroristsAccountData = [];
+    let terroristsSpendData = [];
+    let ctsAccountData = [];
+    let ctsSpendData = [];
 
     for (let i = 0; i < 30; i++) {
       if (economy.length > i) {
-        terroristData.push(economy[i].terroristsRoundStartAccount);
-        ctData.push(economy[i].ctRoundStartAccount);
+        terroristsAccountData.push(economy[i].terroristsRoundStartAccount);
+        terroristsSpendData.push(economy[i].terroristsRoundSpendValue);
+        ctsAccountData.push(economy[i].ctRoundStartAccount);
+        ctsSpendData.push(economy[i].ctRoundSpendValue);
       } else {
-        terroristData.push(null);
-        ctData.push(null);
+        terroristsAccountData.push(null);
+        terroristsSpendData.push(null);
+        ctsAccountData.push(null);
+        ctsSpendData.push(null);
       }
     }
-    console.log(terroristData);
-    console.log(ctData);
 
     let config = {
+      credits: {
+          enabled: false
+      },
       chart: {
         type: 'line',
         height: '37%',
         backgroundColor: null
       },
       title: {
-        text: 'Economy'
+        text: 'Economy',
+        style: {
+          color: 'rgba(255, 255, 255, 1)',
+          font: '16px'
+        },
       },
       xAxis: {
-        categories: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30']
+        categories: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30'],
+        lineColor: '#FFFFFF',
+        tickColor: '#FFFFFF',
+        labels: {
+          style : {
+            color: 'rgba(255, 255, 255, 1)',
+            font: 'sans-serif'
+          }
+        }
       },
       yAxis: {
+        min: 0,
         title: {
-          text: 'Money ($)'
+          text: 'Money ($)',
+          style: {
+            color: '#FFFFFF',
+            font: '14px'
+          }
+        },
+        labels: {
+          style: {
+            color: '#FFFFFF'
+          }
+        },
+        lineColor: '#FFFFFF',
+        tickColor: '#FFFFFF',
+      },
+      legend: {
+        enabled: true,
+        itemStyle: {
+          color: '#FFFFFF'
         }
       },
       plotOptions: {
@@ -63,13 +100,33 @@ class EconomyVisualization extends Component {
         }
       },
       series: [{
-        name: 'terrorists',
-        data: terroristData,
-        color: '#88C3F3'
+        name: 'Start value (T)',
+        data: terroristsAccountData,
+        color: '#F0C557',
+        marker: {
+          symbol: 'circle'
+        }
       }, {
-        name: 'cts',
-        data: ctData,
-        color: '#F0C557'
+        name: 'Spend value (T)',
+        data: terroristsSpendData,
+        color: '#F9E3AD',
+        marker: {
+          symbol: 'triangle-down'
+        }
+      }, {
+        name: 'Start value (CT)',
+        data: ctsAccountData,
+        color: '#88C3F3',
+        marker: {
+          symbol: 'circle'
+        }
+      }, {
+        name: 'Spend value (CT)',
+        data: ctsSpendData,
+        color: '#C3E3FD',
+        marker: {
+          symbol: 'triangle-down'
+        }
       }]
     }
 
