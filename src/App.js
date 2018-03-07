@@ -3,7 +3,9 @@ import ReactPlayer from 'react-player'
 import Rounds from './Components/Rounds';
 import EconomyVisualization from './Components/EconomyVisualization';
 import MapVisualization from './Components/MapVisualization';
-import Sidebar from './Components/Sidebar';
+import Scoreboard from './Components/Scoreboard';
+import MoneyVisualization from './Components/MoneyVisualization';
+import DamageVisualization from './Components/DamageVisualization';
 import './App.css';
 import roundsJSON from './json/nip-vs-faze-m4-overpass-rounds.json';
 import scoresJSON from './json/nip-vs-faze-m4-overpass-scores.json';
@@ -575,7 +577,11 @@ class App extends Component {
             />
           </div>
         </div>
-        <Sidebar scores={this.state.scores} money={this.state.money} damage={this.state.damage} />
+        <div id="sidebar">
+          <Scoreboard scores={this.state.scores} />
+          <MoneyVisualization money={this.state.money} />
+          <DamageVisualization damage={this.state.damage} />
+        </div>
       </div>
     );
   }
