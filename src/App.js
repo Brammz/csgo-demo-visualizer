@@ -23,94 +23,10 @@ class App extends Component {
       damage: {},
       economy: []
     };
-    this.startMatch = this.startMatch.bind(this);
     this.stopMatch = this.stopMatch.bind(this);
-  }
-
-  startMatch() {
-    this.interval = setInterval(() => {
-      this.setState({
-        time: this.state.time+1,
-        rounds: roundsJSON[this.state.time] === undefined ? this.state.rounds : roundsJSON[this.state.time],
-        scores: scoresJSON[this.state.time] === undefined ? this.state.scores : scoresJSON[this.state.time],
-        money: moneyJSON[this.state.time] === undefined ? this.state.money : moneyJSON[this.state.time],
-        damage: damageJSON[this.state.time] === undefined ? this.state.damage : damageJSON[this.state.time],
-        economy: economyJSON[this.state.time] === undefined ? this.state.economy : economyJSON[this.state.time]
-      });
-    }, 1000);
-  }
-
-  stopMatch() {
-    clearInterval(this.interval);
-    this.setState({
-      time: 0,
-      rounds: [],
-      scores: this.state.scores,
-      money: this.state.money,
-      damage: {
-        "terrorists": {
-          "teamName": "Ninjas in Pyjamas",
-          "players": [
-            {
-              "name": "REZ",
-              "damage": 0,
-              "adr": 0
-            },
-            {
-              "name": "Xizt",
-              "damage": 0,
-              "adr": 0
-            },
-            {
-              "name": "GeT_RiGhT",
-              "damage": 0,
-              "adr": 0
-            },
-            {
-              "name": "f0rest",
-              "damage": 0,
-              "adr": 0
-            },
-            {
-              "name": "draken",
-              "damage": 0,
-              "adr": 0
-            }
-          ]
-        },
-        "cts": {
-          "teamName": "FaZe Clan",
-          "players": [
-            {
-              "name": "karrigan",
-              "damage": 0,
-              "adr": 0
-            },
-            {
-              "name": "NiKo",
-              "damage": 0,
-              "adr": 0
-            },
-            {
-              "name": "olofmeister",
-              "damage": 0,
-              "adr": 0
-            },
-            {
-              "name": "rain",
-              "damage": 0,
-              "adr": 0
-            },
-            {
-              "name": "GuardiaN",
-              "damage": 0,
-              "adr": 0
-            }
-          ]
-        }
-      },
-      economy: []
-    });
+    this.setPlayer = this.setPlayer.bind(this);
+    this.playVideo = this.playVideo.bind(this);
+    this.stopVideo = this.stopVideo.bind(this);
   }
 
   componentWillMount() {
@@ -294,27 +210,134 @@ class App extends Component {
   }
 
   componentWillUnmount() {
-    clearInterval(this.interval);
+    clearInterval(this.intervalId);
+  }
+
+  stopMatch() {
+    clearInterval(this.intervalId);
+    this.player.seekTo(1677);
+    this.setState({
+      time: 0,
+      rounds: [],
+      scores: this.state.scores,
+      money: this.state.money,
+      damage: {
+        "terrorists": {
+          "teamName": "Ninjas in Pyjamas",
+          "players": [
+            {
+              "name": "REZ",
+              "damage": 0,
+              "adr": 0
+            },
+            {
+              "name": "Xizt",
+              "damage": 0,
+              "adr": 0
+            },
+            {
+              "name": "GeT_RiGhT",
+              "damage": 0,
+              "adr": 0
+            },
+            {
+              "name": "f0rest",
+              "damage": 0,
+              "adr": 0
+            },
+            {
+              "name": "draken",
+              "damage": 0,
+              "adr": 0
+            }
+          ]
+        },
+        "cts": {
+          "teamName": "FaZe Clan",
+          "players": [
+            {
+              "name": "karrigan",
+              "damage": 0,
+              "adr": 0
+            },
+            {
+              "name": "NiKo",
+              "damage": 0,
+              "adr": 0
+            },
+            {
+              "name": "olofmeister",
+              "damage": 0,
+              "adr": 0
+            },
+            {
+              "name": "rain",
+              "damage": 0,
+              "adr": 0
+            },
+            {
+              "name": "GuardiaN",
+              "damage": 0,
+              "adr": 0
+            }
+          ]
+        }
+      },
+      economy: []
+    });
+  }
+
+  setPlayer(player) {
+    this.player = player;
+  }
+
+  playVideo() {
+    if (this.player === undefined) {
+      console.log('Player not found.');
+    } else {
+      clearInterval(this.intervalId);
+      this.setState({
+        time: (Math.floor(this.player.getCurrentTime())-1677)
+      });
+      this.intervalId = setInterval(() => {
+        this.setState({
+          time: this.state.time+1,
+          rounds: roundsJSON[this.state.time] === undefined ? this.state.rounds : roundsJSON[this.state.time],
+          scores: scoresJSON[this.state.time] === undefined ? this.state.scores : scoresJSON[this.state.time],
+          money: moneyJSON[this.state.time] === undefined ? this.state.money : moneyJSON[this.state.time],
+          damage: damageJSON[this.state.time] === undefined ? this.state.damage : damageJSON[this.state.time],
+          economy: economyJSON[this.state.time] === undefined ? this.state.economy : economyJSON[this.state.time]
+        });
+      }, 1000);
+    }
+  }
+
+  stopVideo() {
+    clearInterval(this.intervalId);
   }
 
   render() {
     return (
       <div className="App">
         <div id="left">
-          <button onClick={this.startMatch}>Start</button><button onClick={this.stopMatch}>Stop</button>
+          <button onClick={this.stopMatch}>Stop</button>
           <p>time: {this.state.time}</p>
           <Rounds rounds={this.state.rounds} />
           <EconomyVisualization economy={this.state.economy} />
           <MapVisualization />
           <div id="media">
             <ReactPlayer
+              ref={this.setPlayer}
               className="fill"
               url="https://www.youtube.com/watch?v=bPVpcZapu40"
+              youtubeConfig={{ playerVars: { start: 1677 } }}
               controls="true"
               width='100%'
-              height='100%'
-              onPlay={this.startMatch}
-              onPause={this.stopMatch}
+              height='80%'
+              onPlay={this.playVideo}
+              onPause={this.stopVideo}
+              onEnded={this.stopVideo}
+              onError={() => console.log('Error encountered when trying to play video.')}
             />
           </div>
         </div>
