@@ -6,7 +6,6 @@ This tool is developed as part of my master's thesis at the KULeuven, Belgium.
 
 ## TODO
 
-* Controlling YouTube or other video
 * First round economy money + kloppen andere rondes?
 * Heatmap (contact dev)
 * Pathing
