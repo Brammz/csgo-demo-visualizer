@@ -296,9 +296,243 @@ class App extends Component {
       console.log('Player not found.');
     } else {
       clearInterval(this.intervalId);
+      // update data to current time
+      let roundsFound = false;
+      let scoresFound = false;
+      let moneyFound = false;
+      let damageFound = false;
+      let economyFound = false;
+      for (let i = (Math.floor(this.player.getCurrentTime())-1677); i >= 0 && (!roundsFound || !scoresFound || !moneyFound || !damageFound || !economyFound); i--) {
+        if (!roundsFound && roundsJSON[i] !== undefined) {
+          roundsFound = true;
+          this.setState({
+            rounds: roundsJSON[i]
+          });
+        }
+        if (!scoresFound && scoresJSON[i] !== undefined) {
+          scoresFound = true;
+          this.setState({
+            scores: scoresJSON[i]
+          });
+        }
+        if (!moneyFound && moneyJSON[i] !== undefined) {
+          moneyFound = true;
+          this.setState({
+            money: moneyJSON[i]
+          });
+        }
+        if (!damageFound && damageJSON[i] !== undefined) {
+          damageFound = true;
+          this.setState({
+            damage: damageJSON[i]
+          });
+        }
+        if (!economyFound && economyJSON[i] !== undefined) {
+          economyFound = true;
+          this.setState({
+            economy: economyJSON[i]
+          });
+        }
+      }
+      if (!roundsFound) {
+        this.setState({
+          rounds: [] // TODO default
+        });
+      }
+      if (!scoresFound) {
+        this.setState({
+          scores: { // TODO default
+            "terrorists": {
+              "teamName": "Ninjas in Pyjamas",
+              "score": 0,
+              "players": [
+                {
+                  "name": "REZ",
+                  "account": 800,
+                  "kills": 0,
+                  "assists": 0,
+                  "deaths": 0,
+                  "accuracy": 0,
+                  "hsAccuracy": 0
+                },
+                {
+                  "name": "Xizt",
+                  "account": 800,
+                  "kills": 0,
+                  "assists": 0,
+                  "deaths": 0,
+                  "accuracy": 0,
+                  "hsAccuracy": 0
+                },
+                {
+                  "name": "GeT_RiGhT",
+                  "account": 800,
+                  "kills": 0,
+                  "assists": 0,
+                  "deaths": 0,
+                  "accuracy": 0,
+                  "hsAccuracy": 0
+                },
+                {
+                  "name": "f0rest",
+                  "account": 800,
+                  "kills": 0,
+                  "assists": 0,
+                  "deaths": 0,
+                  "accuracy": 0,
+                  "hsAccuracy": 0
+                },
+                {
+                  "name": "draken",
+                  "account": 800,
+                  "kills": 0,
+                  "assists": 0,
+                  "deaths": 0,
+                  "accuracy": 0,
+                  "hsAccuracy": 0
+                }
+              ]
+            },
+            "cts": {
+              "teamName": "FaZe Clan",
+              "score": 0,
+              "players": [
+                {
+                  "name": "karrigan",
+                  "account": 800,
+                  "kills": 0,
+                  "assists": 0,
+                  "deaths": 0,
+                  "accuracy": 0,
+                  "hsAccuracy": 0
+                },
+                {
+                  "name": "NiKo",
+                  "account": 800,
+                  "kills": 0,
+                  "assists": 0,
+                  "deaths": 0,
+                  "accuracy": 0,
+                  "hsAccuracy": 0
+                },
+                {
+                  "name": "olofmeister",
+                  "account": 800,
+                  "kills": 0,
+                  "assists": 0,
+                  "deaths": 0,
+                  "accuracy": 0,
+                  "hsAccuracy": 0
+                },
+                {
+                  "name": "rain",
+                  "account": 800,
+                  "kills": 0,
+                  "assists": 0,
+                  "deaths": 0,
+                  "accuracy": 0,
+                  "hsAccuracy": 0
+                },
+                {
+                  "name": "GuardiaN",
+                  "account": 800,
+                  "kills": 0,
+                  "assists": 0,
+                  "deaths": 0,
+                  "accuracy": 0,
+                  "hsAccuracy": 0
+                }
+              ]
+            }
+          }
+        });
+      }
+      if (!moneyFound) {
+        this.setState({
+          money: { // TODO default
+            "terroristsAccount": 4000,
+            "terroristsEquipment": 0,
+            "ctAccount": 4000,
+            "ctEquipment": 0
+          }
+        });
+      }
+      if (!damageFound) {
+        this.setState({
+          damage: { // TODO default
+            "terrorists": {
+              "teamName": "Ninjas in Pyjamas",
+              "players": [
+                {
+                  "name": "REZ",
+                  "damage": 0,
+                  "adr": 0
+                },
+                {
+                  "name": "Xizt",
+                  "damage": 0,
+                  "adr": 0
+                },
+                {
+                  "name": "GeT_RiGhT",
+                  "damage": 0,
+                  "adr": 0
+                },
+                {
+                  "name": "f0rest",
+                  "damage": 0,
+                  "adr": 0
+                },
+                {
+                  "name": "draken",
+                  "damage": 0,
+                  "adr": 0
+                }
+              ]
+            },
+            "cts": {
+              "teamName": "FaZe Clan",
+              "players": [
+                {
+                  "name": "karrigan",
+                  "damage": 0,
+                  "adr": 0
+                },
+                {
+                  "name": "NiKo",
+                  "damage": 0,
+                  "adr": 0
+                },
+                {
+                  "name": "olofmeister",
+                  "damage": 0,
+                  "adr": 0
+                },
+                {
+                  "name": "rain",
+                  "damage": 0,
+                  "adr": 0
+                },
+                {
+                  "name": "GuardiaN",
+                  "damage": 0,
+                  "adr": 0
+                }
+              ]
+            },
+          }
+        });
+      }
+      if (!economyFound) {
+        this.setState({
+          economy: [] // TODO default
+        });
+      }
+      // set time
       this.setState({
         time: (Math.floor(this.player.getCurrentTime())-1677)
       });
+      // set interval
       this.intervalId = setInterval(() => {
         this.setState({
           time: this.state.time+1,
