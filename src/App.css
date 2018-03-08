@@ -103,7 +103,7 @@ button:focus {
   background-color: #1C1C1C;
   border: solid;
   border-width: 5px;
-  border-color: black;
+  border-color: white;
 }
 
 #map {
@@ -124,28 +124,28 @@ button:focus {
 #mapVisual {
   position: absolute;
   top: 15%;
-  left: 15%;
+  left: 10%;
   height: 70%;
-  width: 70%;
   z-index: 1;
   background-color: #1C1C1C;
   border: solid;
   border-width: 5px;
-  border-color: black;
+  border-color: white;
+  display: inline-block;
 }
 
 #mapOptions {
+  padding: 10px;
   height: 100%;
-  width: 20%;
   float: left;
-  background-color: purple;
+  border-right: solid;
+  border-right-width: 5px;
+  border-right-color: white;
 }
 
 #mapGraph {
   height: 100%;
-  width: 80%;
   float: left;
-  background-color: pink;
 }
 
 #media {

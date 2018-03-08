@@ -319,8 +319,8 @@ class App extends Component {
             ref={this.setPlayer}
             className="media"
             url="https://www.youtube.com/watch?v=bPVpcZapu40"
-            youtubeConfig={{ playerVars: { start: 1677 } }}
-            controls="true"
+            config={{ youtube: { playerVars: { start: 1677 } } }}
+            controls={true}
             width='100%'
             height='89%'
             onPlay={this.playVideo}
