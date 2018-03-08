@@ -7,15 +7,18 @@ class EconomyVisualization extends Component {
   constructor() {
     super();
     this.state = {
-      economyHidden: true
+      economyHidden: true,
+      terroristsAccountDataShown: true,
+      terroristsSpendDataShown: false,
+      ctsAccountDataShown: true,
+      ctsSpendDataShown: false
     }
     this.toggleEconomy = this.toggleEconomy.bind(this);
   }
 
   toggleEconomy() {
-    const { economyHidden } = this.state;
     this.setState({
-      economyHidden: !economyHidden
+      economyHidden: !this.state.economyHidden
     });
   }
 
@@ -97,35 +100,67 @@ class EconomyVisualization extends Component {
             enabled: true
           },
           enableMouseTracking: false
+        },
+        series: {
+          events: {
+            legendItemClick: function(e) {
+              let lineId = e.target.userOptions.id;
+              /*
+              if (lineId === 'terroristsAccountData') {
+                this.setState({
+                  terroristsAccountDataShown: !this.state.terroristsAccountDataShown
+                });
+              } else if (lineId === 'terroristsSpendData') {
+                this.setState({
+                  terroristsSpendDataShown: !this.state.terroristsSpendDataShown
+                });
+              } else if (lineId === 'ctsAccountData') {
+                this.setState({
+                  ctsAccountDataShown: !this.state.ctsAccountDataShown
+                });
+              } else if (lineId === 'ctsSpendData') {
+                this.setState({
+                  ctsSpendDataShown: !this.state.ctsSpendDataShown
+                });
+              }
+              */
+            }
+          }
         }
       },
       series: [{
+        id: 'terroristsAccountData',
         name: 'Start value (T)',
         data: terroristsAccountData,
         color: '#F0C557',
+        visible: this.state.terroristsAccountDataShown,
         marker: {
           symbol: 'circle'
         }
       }, {
+        id: 'terroristsSpendData',
         name: 'Spend value (T)',
         data: terroristsSpendData,
         color: '#F9E3AD',
-        visible: false,
+        visible: this.state.terroristsSpendDataShown,
         marker: {
           symbol: 'triangle-down'
         }
       }, {
+        id: 'ctsAccountData',
         name: 'Start value (CT)',
         data: ctsAccountData,
         color: '#88C3F3',
+        visible: this.state.ctsAccountDataShown,
         marker: {
           symbol: 'circle'
         }
       }, {
+        id: 'ctsSpendData',
         name: 'Spend value (CT)',
         data: ctsSpendData,
         color: '#C3E3FD',
-        visible: false,
+        visible: this.state.ctsSpendDataShown,
         marker: {
           symbol: 'triangle-down'
         }

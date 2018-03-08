@@ -28,7 +28,7 @@ class Rounds extends Component {
             {image}
           </button>
         )
-      } else if (i == rounds.length+1) {
+      } else if (i === rounds.length+1) {
         output.push(
           <button disabled key={'round' + i} id={'round' + i} className="roundActive">
             <strong>{i}</strong>
