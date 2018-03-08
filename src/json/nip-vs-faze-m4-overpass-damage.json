@@ -129,22 +129,22 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 0,
+          "damage": 100,
           "adr": 50
         },
         {
           "name": "Xizt",
-          "damage": 0,
+          "damage": 25,
           "adr": 12.5
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 0,
+          "damage": 11,
           "adr": 5.5
         },
         {
           "name": "f0rest",
-          "damage": 100,
+          "damage": 300,
           "adr": 150
         },
         {
@@ -159,7 +159,7 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 277,
+          "damage": 307,
           "adr": 153.5
         },
         {
@@ -174,12 +174,12 @@
         },
         {
           "name": "rain",
-          "damage": 394,
+          "damage": 594,
           "adr": 297
         },
         {
           "name": "GuardiaN",
-          "damage": 895,
+          "damage": 1165,
           "adr": 582.5
         }
       ]
@@ -191,22 +191,22 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 36,
+          "damage": 136,
           "adr": 45.333333333333336
         },
         {
           "name": "Xizt",
-          "damage": 166,
+          "damage": 191,
           "adr": 63.666666666666664
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 81,
+          "damage": 92,
           "adr": 30.666666666666668
         },
         {
           "name": "f0rest",
-          "damage": 54,
+          "damage": 354,
           "adr": 118
         },
         {
@@ -221,27 +221,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 224,
+          "damage": 531,
           "adr": 177
         },
         {
           "name": "NiKo",
-          "damage": 752,
+          "damage": 863,
           "adr": 287.6666666666667
         },
         {
           "name": "olofmeister",
-          "damage": 1000,
+          "damage": 1145,
           "adr": 381.6666666666667
         },
         {
           "name": "rain",
-          "damage": 280,
+          "damage": 874,
           "adr": 291.3333333333333
         },
         {
           "name": "GuardiaN",
-          "damage": 210,
+          "damage": 1375,
           "adr": 458.3333333333333
         }
       ]
@@ -253,27 +253,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 70,
+          "damage": 206,
           "adr": 51.5
         },
         {
           "name": "Xizt",
-          "damage": 23,
+          "damage": 214,
           "adr": 53.5
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 128,
+          "damage": 220,
           "adr": 55
         },
         {
           "name": "f0rest",
-          "damage": 39,
+          "damage": 393,
           "adr": 98.25
         },
         {
           "name": "draken",
-          "damage": 41,
+          "damage": 160,
           "adr": 40
         }
       ]
@@ -283,27 +283,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 421,
+          "damage": 952,
           "adr": 238
         },
         {
           "name": "NiKo",
-          "damage": 891,
+          "damage": 1754,
           "adr": 438.5
         },
         {
           "name": "olofmeister",
-          "damage": 263,
+          "damage": 1408,
           "adr": 352
         },
         {
           "name": "rain",
-          "damage": 553,
+          "damage": 1427,
           "adr": 356.75
         },
         {
           "name": "GuardiaN",
-          "damage": 69,
+          "damage": 1444,
           "adr": 361
         }
       ]
@@ -315,27 +315,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 4,
+          "damage": 210,
           "adr": 42
         },
         {
           "name": "Xizt",
-          "damage": 36,
+          "damage": 250,
           "adr": 50
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 447,
+          "damage": 667,
           "adr": 133.4
         },
         {
           "name": "f0rest",
-          "damage": 53,
+          "damage": 446,
           "adr": 89.2
         },
         {
           "name": "draken",
-          "damage": 0,
+          "damage": 160,
           "adr": 32
         }
       ]
@@ -345,27 +345,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 606,
+          "damage": 1558,
           "adr": 311.6
         },
         {
           "name": "NiKo",
-          "damage": 340,
+          "damage": 2094,
           "adr": 418.8
         },
         {
           "name": "olofmeister",
-          "damage": 290,
+          "damage": 1698,
           "adr": 339.6
         },
         {
           "name": "rain",
-          "damage": 164,
+          "damage": 1591,
           "adr": 318.2
         },
         {
           "name": "GuardiaN",
-          "damage": 400,
+          "damage": 1844,
           "adr": 368.8
         }
       ]
@@ -377,27 +377,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 208,
+          "damage": 418,
           "adr": 69.66666666666667
         },
         {
           "name": "Xizt",
-          "damage": 336,
+          "damage": 586,
           "adr": 97.66666666666667
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 163,
+          "damage": 830,
           "adr": 138.33333333333334
         },
         {
           "name": "f0rest",
-          "damage": 295,
+          "damage": 741,
           "adr": 123.5
         },
         {
           "name": "draken",
-          "damage": 0,
+          "damage": 160,
           "adr": 26.666666666666668
         }
       ]
@@ -407,27 +407,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 323,
+          "damage": 1881,
           "adr": 313.5
         },
         {
           "name": "NiKo",
-          "damage": 1129,
+          "damage": 3223,
           "adr": 537.1666666666666
         },
         {
           "name": "olofmeister",
-          "damage": 200,
+          "damage": 1898,
           "adr": 316.3333333333333
         },
         {
           "name": "rain",
-          "damage": 214,
+          "damage": 1805,
           "adr": 300.8333333333333
         },
         {
           "name": "GuardiaN",
-          "damage": 198,
+          "damage": 2042,
           "adr": 340.3333333333333
         }
       ]
@@ -439,27 +439,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 0,
+          "damage": 418,
           "adr": 59.714285714285715
         },
         {
           "name": "Xizt",
-          "damage": 0,
+          "damage": 586,
           "adr": 83.71428571428571
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 300,
+          "damage": 1130,
           "adr": 161.42857142857142
         },
         {
           "name": "f0rest",
-          "damage": 100,
+          "damage": 841,
           "adr": 120.14285714285714
         },
         {
           "name": "draken",
-          "damage": 0,
+          "damage": 160,
           "adr": 22.857142857142858
         }
       ]
@@ -469,27 +469,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 200,
+          "damage": 2081,
           "adr": 297.2857142857143
         },
         {
           "name": "NiKo",
-          "damage": 600,
+          "damage": 3823,
           "adr": 546.1428571428571
         },
         {
           "name": "olofmeister",
-          "damage": 0,
+          "damage": 1898,
           "adr": 271.14285714285717
         },
         {
           "name": "rain",
-          "damage": 144,
+          "damage": 1949,
           "adr": 278.42857142857144
         },
         {
           "name": "GuardiaN",
-          "damage": 200,
+          "damage": 2242,
           "adr": 320.2857142857143
         }
       ]
@@ -501,27 +501,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 0,
+          "damage": 418,
           "adr": 52.25
         },
         {
           "name": "Xizt",
-          "damage": 0,
+          "damage": 586,
           "adr": 73.25
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 0,
+          "damage": 1130,
           "adr": 141.25
         },
         {
           "name": "f0rest",
-          "damage": 46,
+          "damage": 887,
           "adr": 110.875
         },
         {
           "name": "draken",
-          "damage": 0,
+          "damage": 160,
           "adr": 20
         }
       ]
@@ -531,27 +531,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 0,
+          "damage": 2081,
           "adr": 260.125
         },
         {
           "name": "NiKo",
-          "damage": 701,
+          "damage": 4524,
           "adr": 565.5
         },
         {
           "name": "olofmeister",
-          "damage": 100,
+          "damage": 1998,
           "adr": 249.75
         },
         {
           "name": "rain",
-          "damage": 200,
+          "damage": 2149,
           "adr": 268.625
         },
         {
           "name": "GuardiaN",
-          "damage": 100,
+          "damage": 2342,
           "adr": 292.75
         }
       ]
@@ -563,27 +563,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 100,
+          "damage": 518,
           "adr": 57.55555555555556
         },
         {
           "name": "Xizt",
-          "damage": 86,
+          "damage": 672,
           "adr": 74.66666666666667
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 117,
+          "damage": 1247,
           "adr": 138.55555555555554
         },
         {
           "name": "f0rest",
-          "damage": 83,
+          "damage": 970,
           "adr": 107.77777777777777
         },
         {
           "name": "draken",
-          "damage": 114,
+          "damage": 274,
           "adr": 30.444444444444443
         }
       ]
@@ -593,27 +593,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 42,
+          "damage": 2123,
           "adr": 235.88888888888889
         },
         {
           "name": "NiKo",
-          "damage": 48,
+          "damage": 4572,
           "adr": 508
         },
         {
           "name": "olofmeister",
-          "damage": 154,
+          "damage": 2152,
           "adr": 239.11111111111111
         },
         {
           "name": "rain",
-          "damage": 100,
+          "damage": 2249,
           "adr": 249.88888888888889
         },
         {
           "name": "GuardiaN",
-          "damage": 0,
+          "damage": 2342,
           "adr": 260.22222222222223
         }
       ]
@@ -625,27 +625,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 81,
+          "damage": 599,
           "adr": 59.9
         },
         {
           "name": "Xizt",
-          "damage": 100,
+          "damage": 772,
           "adr": 77.2
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 159,
+          "damage": 1406,
           "adr": 140.6
         },
         {
           "name": "f0rest",
-          "damage": 160,
+          "damage": 1130,
           "adr": 113
         },
         {
           "name": "draken",
-          "damage": 0,
+          "damage": 274,
           "adr": 27.4
         }
       ]
@@ -655,27 +655,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 0,
+          "damage": 2123,
           "adr": 212.3
         },
         {
           "name": "NiKo",
-          "damage": 22,
+          "damage": 4594,
           "adr": 459.4
         },
         {
           "name": "olofmeister",
-          "damage": 100,
+          "damage": 2252,
           "adr": 225.2
         },
         {
           "name": "rain",
-          "damage": 144,
+          "damage": 2393,
           "adr": 239.3
         },
         {
           "name": "GuardiaN",
-          "damage": 200,
+          "damage": 2542,
           "adr": 254.2
         }
       ]
@@ -687,27 +687,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 0,
+          "damage": 599,
           "adr": 54.45454545454545
         },
         {
           "name": "Xizt",
-          "damage": 1,
+          "damage": 773,
           "adr": 70.27272727272727
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 74,
+          "damage": 1480,
           "adr": 134.54545454545453
         },
         {
           "name": "f0rest",
-          "damage": 125,
+          "damage": 1255,
           "adr": 114.0909090909091
         },
         {
           "name": "draken",
-          "damage": 0,
+          "damage": 274,
           "adr": 24.90909090909091
         }
       ]
@@ -717,27 +717,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 0,
+          "damage": 2123,
           "adr": 193
         },
         {
           "name": "NiKo",
-          "damage": 0,
+          "damage": 4594,
           "adr": 417.6363636363636
         },
         {
           "name": "olofmeister",
-          "damage": 128,
+          "damage": 2380,
           "adr": 216.36363636363637
         },
         {
           "name": "rain",
-          "damage": 272,
+          "damage": 2665,
           "adr": 242.27272727272728
         },
         {
           "name": "GuardiaN",
-          "damage": 100,
+          "damage": 2642,
           "adr": 240.1818181818182
         }
       ]
@@ -749,27 +749,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 52,
+          "damage": 651,
           "adr": 54.25
         },
         {
           "name": "Xizt",
-          "damage": 0,
+          "damage": 773,
           "adr": 64.41666666666667
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 97,
+          "damage": 1577,
           "adr": 131.41666666666666
         },
         {
           "name": "f0rest",
-          "damage": 48,
+          "damage": 1303,
           "adr": 108.58333333333333
         },
         {
           "name": "draken",
-          "damage": 0,
+          "damage": 274,
           "adr": 22.833333333333332
         }
       ]
@@ -779,27 +779,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 237,
+          "damage": 2360,
           "adr": 196.66666666666666
         },
         {
           "name": "NiKo",
-          "damage": 166,
+          "damage": 4760,
           "adr": 396.6666666666667
         },
         {
           "name": "olofmeister",
-          "damage": 97,
+          "damage": 2477,
           "adr": 206.41666666666666
         },
         {
           "name": "rain",
-          "damage": 0,
+          "damage": 2665,
           "adr": 222.08333333333334
         },
         {
           "name": "GuardiaN",
-          "damage": 0,
+          "damage": 2642,
           "adr": 220.16666666666666
         }
       ]
@@ -811,27 +811,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 0,
+          "damage": 651,
           "adr": 50.07692307692308
         },
         {
           "name": "Xizt",
-          "damage": 132,
+          "damage": 905,
           "adr": 69.61538461538461
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 58,
+          "damage": 1635,
           "adr": 125.76923076923077
         },
         {
           "name": "f0rest",
-          "damage": 0,
+          "damage": 1303,
           "adr": 100.23076923076923
         },
         {
           "name": "draken",
-          "damage": 10,
+          "damage": 284,
           "adr": 21.846153846153847
         }
       ]
@@ -841,27 +841,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 20,
+          "damage": 2380,
           "adr": 183.07692307692307
         },
         {
           "name": "NiKo",
-          "damage": 59,
+          "damage": 4819,
           "adr": 370.6923076923077
         },
         {
           "name": "olofmeister",
-          "damage": 48,
+          "damage": 2525,
           "adr": 194.23076923076923
         },
         {
           "name": "rain",
-          "damage": 156,
+          "damage": 2821,
           "adr": 217
         },
         {
           "name": "GuardiaN",
-          "damage": 228,
+          "damage": 2870,
           "adr": 220.76923076923077
         }
       ]
@@ -873,27 +873,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 168,
+          "damage": 819,
           "adr": 58.5
         },
         {
           "name": "Xizt",
-          "damage": 19,
+          "damage": 924,
           "adr": 66
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 155,
+          "damage": 1790,
           "adr": 127.85714285714286
         },
         {
           "name": "f0rest",
-          "damage": 77,
+          "damage": 1380,
           "adr": 98.57142857142857
         },
         {
           "name": "draken",
-          "damage": 0,
+          "damage": 284,
           "adr": 20.285714285714285
         }
       ]
@@ -903,27 +903,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 44,
+          "damage": 2424,
           "adr": 173.14285714285714
         },
         {
           "name": "NiKo",
-          "damage": 127,
+          "damage": 4946,
           "adr": 353.2857142857143
         },
         {
           "name": "olofmeister",
-          "damage": 77,
+          "damage": 2602,
           "adr": 185.85714285714286
         },
         {
           "name": "rain",
-          "damage": 149,
+          "damage": 2970,
           "adr": 212.14285714285714
         },
         {
           "name": "GuardiaN",
-          "damage": 103,
+          "damage": 2973,
           "adr": 212.35714285714286
         }
       ]
@@ -935,27 +935,27 @@
       "players": [
         {
           "name": "REZ",
-          "damage": 100,
+          "damage": 919,
           "adr": 61.266666666666666
         },
         {
           "name": "Xizt",
-          "damage": 0,
+          "damage": 924,
           "adr": 61.6
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 0,
+          "damage": 1790,
           "adr": 119.33333333333333
         },
         {
           "name": "f0rest",
-          "damage": 100,
+          "damage": 1480,
           "adr": 98.66666666666667
         },
         {
           "name": "draken",
-          "damage": 0,
+          "damage": 284,
           "adr": 18.933333333333334
         }
       ]
@@ -965,27 +965,27 @@
       "players": [
         {
           "name": "karrigan",
-          "damage": 132,
+          "damage": 2556,
           "adr": 170.4
         },
         {
           "name": "NiKo",
-          "damage": 100,
+          "damage": 5046,
           "adr": 336.4
         },
         {
           "name": "olofmeister",
-          "damage": 127,
+          "damage": 2729,
           "adr": 181.93333333333334
         },
         {
           "name": "rain",
-          "damage": 141,
+          "damage": 3111,
           "adr": 207.4
         },
         {
           "name": "GuardiaN",
-          "damage": 0,
+          "damage": 2973,
           "adr": 198.2
         }
       ]
@@ -997,27 +997,27 @@
       "players": [
         {
           "name": "GuardiaN",
-          "damage": 15,
+          "damage": 934,
           "adr": 58.375
         },
         {
           "name": "rain",
-          "damage": 200,
+          "damage": 1124,
           "adr": 70.25
         },
         {
           "name": "NiKo",
-          "damage": 22,
+          "damage": 1812,
           "adr": 113.25
         },
         {
           "name": "karrigan",
-          "damage": 72,
+          "damage": 1552,
           "adr": 97
         },
         {
           "name": "olofmeister",
-          "damage": 191,
+          "damage": 475,
           "adr": 29.6875
         }
       ]
@@ -1027,27 +1027,27 @@
       "players": [
         {
           "name": "Xizt",
-          "damage": 28,
+          "damage": 2584,
           "adr": 161.5
         },
         {
           "name": "draken",
-          "damage": 91,
+          "damage": 5137,
           "adr": 321.0625
         },
         {
           "name": "REZ",
-          "damage": 12,
+          "damage": 2741,
           "adr": 171.3125
         },
         {
           "name": "f0rest",
-          "damage": 0,
+          "damage": 3111,
           "adr": 194.4375
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 13,
+          "damage": 2986,
           "adr": 186.625
         }
       ]
@@ -1059,27 +1059,27 @@
       "players": [
         {
           "name": "GuardiaN",
-          "damage": 25,
+          "damage": 959,
           "adr": 56.411764705882355
         },
         {
           "name": "rain",
-          "damage": 153,
+          "damage": 1277,
           "adr": 75.11764705882354
         },
         {
           "name": "NiKo",
-          "damage": 100,
+          "damage": 1912,
           "adr": 112.47058823529412
         },
         {
           "name": "karrigan",
-          "damage": 0,
+          "damage": 1552,
           "adr": 91.29411764705883
         },
         {
           "name": "olofmeister",
-          "damage": 148,
+          "damage": 623,
           "adr": 36.64705882352941
         }
       ]
@@ -1089,27 +1089,27 @@
       "players": [
         {
           "name": "Xizt",
-          "damage": 0,
+          "damage": 2584,
           "adr": 152
         },
         {
           "name": "draken",
-          "damage": 129,
+          "damage": 5266,
           "adr": 309.7647058823529
         },
         {
           "name": "REZ",
-          "damage": 100,
+          "damage": 2841,
           "adr": 167.11764705882354
         },
         {
           "name": "f0rest",
-          "damage": 249,
+          "damage": 3360,
           "adr": 197.64705882352942
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 22,
+          "damage": 3008,
           "adr": 176.94117647058823
         }
       ]
@@ -1121,27 +1121,27 @@
       "players": [
         {
           "name": "GuardiaN",
-          "damage": 0,
+          "damage": 959,
           "adr": 53.27777777777778
         },
         {
           "name": "rain",
-          "damage": 0,
+          "damage": 1277,
           "adr": 70.94444444444444
         },
         {
           "name": "NiKo",
-          "damage": 0,
+          "damage": 1912,
           "adr": 106.22222222222223
         },
         {
           "name": "karrigan",
-          "damage": 0,
+          "damage": 1552,
           "adr": 86.22222222222223
         },
         {
           "name": "olofmeister",
-          "damage": 96,
+          "damage": 719,
           "adr": 39.94444444444444
         }
       ]
@@ -1151,27 +1151,27 @@
       "players": [
         {
           "name": "Xizt",
-          "damage": 0,
+          "damage": 2584,
           "adr": 143.55555555555554
         },
         {
           "name": "draken",
-          "damage": 366,
+          "damage": 5632,
           "adr": 312.8888888888889
         },
         {
           "name": "REZ",
-          "damage": 34,
+          "damage": 2875,
           "adr": 159.72222222222223
         },
         {
           "name": "f0rest",
-          "damage": 34,
+          "damage": 3394,
           "adr": 188.55555555555554
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 66,
+          "damage": 3074,
           "adr": 170.77777777777777
         }
       ]
@@ -1183,27 +1183,27 @@
       "players": [
         {
           "name": "GuardiaN",
-          "damage": 0,
+          "damage": 959,
           "adr": 50.473684210526315
         },
         {
           "name": "rain",
-          "damage": 100,
+          "damage": 1377,
           "adr": 72.47368421052632
         },
         {
           "name": "NiKo",
-          "damage": 144,
+          "damage": 2056,
           "adr": 108.21052631578948
         },
         {
           "name": "karrigan",
-          "damage": 140,
+          "damage": 1692,
           "adr": 89.05263157894737
         },
         {
           "name": "olofmeister",
-          "damage": 116,
+          "damage": 835,
           "adr": 43.94736842105263
         }
       ]
@@ -1213,27 +1213,27 @@
       "players": [
         {
           "name": "Xizt",
-          "damage": 40,
+          "damage": 2624,
           "adr": 138.10526315789474
         },
         {
           "name": "draken",
-          "damage": 162,
+          "damage": 5794,
           "adr": 304.94736842105266
         },
         {
           "name": "REZ",
-          "damage": 94,
+          "damage": 2969,
           "adr": 156.26315789473685
         },
         {
           "name": "f0rest",
-          "damage": 180,
+          "damage": 3574,
           "adr": 188.10526315789474
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 0,
+          "damage": 3074,
           "adr": 161.78947368421052
         }
       ]
@@ -1245,27 +1245,27 @@
       "players": [
         {
           "name": "GuardiaN",
-          "damage": 0,
+          "damage": 959,
           "adr": 47.95
         },
         {
           "name": "rain",
-          "damage": 0,
+          "damage": 1377,
           "adr": 68.85
         },
         {
           "name": "NiKo",
-          "damage": 159,
+          "damage": 2215,
           "adr": 110.75
         },
         {
           "name": "karrigan",
-          "damage": 200,
+          "damage": 1892,
           "adr": 94.6
         },
         {
           "name": "olofmeister",
-          "damage": 0,
+          "damage": 835,
           "adr": 41.75
         }
       ]
@@ -1275,27 +1275,27 @@
       "players": [
         {
           "name": "Xizt",
-          "damage": 160,
+          "damage": 2784,
           "adr": 139.2
         },
         {
           "name": "draken",
-          "damage": 0,
+          "damage": 5794,
           "adr": 289.7
         },
         {
           "name": "REZ",
-          "damage": 40,
+          "damage": 3009,
           "adr": 150.45
         },
         {
           "name": "f0rest",
-          "damage": 0,
+          "damage": 3574,
           "adr": 178.7
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 300,
+          "damage": 3374,
           "adr": 168.7
         }
       ]
@@ -1307,27 +1307,27 @@
       "players": [
         {
           "name": "GuardiaN",
-          "damage": 20,
+          "damage": 979,
           "adr": 46.61904761904762
         },
         {
           "name": "rain",
-          "damage": 0,
+          "damage": 1377,
           "adr": 65.57142857142857
         },
         {
           "name": "NiKo",
-          "damage": 100,
+          "damage": 2315,
           "adr": 110.23809523809524
         },
         {
           "name": "karrigan",
-          "damage": 80,
+          "damage": 1972,
           "adr": 93.9047619047619
         },
         {
           "name": "olofmeister",
-          "damage": 100,
+          "damage": 935,
           "adr": 44.523809523809526
         }
       ]
@@ -1337,27 +1337,27 @@
       "players": [
         {
           "name": "Xizt",
-          "damage": 26,
+          "damage": 2810,
           "adr": 133.8095238095238
         },
         {
           "name": "draken",
-          "damage": 100,
+          "damage": 5894,
           "adr": 280.6666666666667
         },
         {
           "name": "REZ",
-          "damage": 100,
+          "damage": 3109,
           "adr": 148.04761904761904
         },
         {
           "name": "f0rest",
-          "damage": 88,
+          "damage": 3662,
           "adr": 174.38095238095238
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 186,
+          "damage": 3560,
           "adr": 169.52380952380952
         }
       ]
@@ -1369,27 +1369,27 @@
       "players": [
         {
           "name": "GuardiaN",
-          "damage": 221,
+          "damage": 1200,
           "adr": 54.54545454545455
         },
         {
           "name": "rain",
-          "damage": 0,
+          "damage": 1377,
           "adr": 62.59090909090909
         },
         {
           "name": "NiKo",
-          "damage": 75,
+          "damage": 2390,
           "adr": 108.63636363636364
         },
         {
           "name": "karrigan",
-          "damage": 100,
+          "damage": 2072,
           "adr": 94.18181818181819
         },
         {
           "name": "olofmeister",
-          "damage": 95,
+          "damage": 1030,
           "adr": 46.81818181818182
         }
       ]
@@ -1399,27 +1399,27 @@
       "players": [
         {
           "name": "Xizt",
-          "damage": 22,
+          "damage": 2832,
           "adr": 128.72727272727272
         },
         {
           "name": "draken",
-          "damage": 0,
+          "damage": 5894,
           "adr": 267.90909090909093
         },
         {
           "name": "REZ",
-          "damage": 117,
+          "damage": 3226,
           "adr": 146.63636363636363
         },
         {
           "name": "f0rest",
-          "damage": 0,
+          "damage": 3662,
           "adr": 166.45454545454547
         },
         {
           "name": "GeT_RiGhT",
-          "damage": 173,
+          "damage": 3733,
           "adr": 169.6818181818182
         }
       ]
