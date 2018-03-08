@@ -7,7 +7,7 @@ class MapVisualization extends Component {
   constructor() {
     super();
     this.state = {
-      mapHidden: false,
+      mapHidden: true,
       selectedTypeOption: 'heatmap',
       selectedHeatmapOption: 'kills',
       selectedTeamOption: 'both',

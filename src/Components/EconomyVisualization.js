@@ -20,7 +20,6 @@ class EconomyVisualization extends Component {
   }
 
   render() {
-    const { economyHidden } = this.state;
     let economy = this.props.economy;
     let terroristsAccountData = [];
     let terroristsSpendData = [];
@@ -93,6 +92,7 @@ class EconomyVisualization extends Component {
       },
       plotOptions: {
         line: {
+          animation: false,
           dataLabels: {
             enabled: true
           },
@@ -137,7 +137,7 @@ class EconomyVisualization extends Component {
         <button key="economy" id="economyBtn" onClick={this.toggleEconomy}>
           <img src={economyImg} alt="economy" className="image" />
         </button>
-        {!economyHidden && (
+        {!this.state.economyHidden && (
           <div id="economyVisual">
             <button type="button" className="close" onClick={this.toggleEconomy}>
               <span>&times;</span>

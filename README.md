@@ -6,10 +6,10 @@ This tool is developed as part of my master's thesis at the KULeuven, Belgium.
 
 ## TODO
 
-* First round economy money + kloppen andere rondes?
+* Round div instead of buttons
+* Economy store active lines
 * Heatmap (contact dev)
 * Pathing
-* Highchart flow instead of switch on update?
 * Switching teams
 
 ## Technologies used
