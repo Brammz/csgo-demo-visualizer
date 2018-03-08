@@ -6,19 +6,9 @@ import time from '../images/time.png';
 
 class Rounds extends Component {
 
-  setRound(i) {
-    console.log('Round clicked: ' + i);
-  }
-
   render() {
     let rounds = this.props.rounds;
     let output = [];
-
-    output.push(
-      <button key="roundall" id="roundall" className="round" onClick={this.setRound.bind(this, 'all')}>
-        <strong>All</strong>
-      </button>
-    )
 
     for (let i = 1; i <= 30; i++) {
       if (i <= rounds.length) {
@@ -33,14 +23,14 @@ class Rounds extends Component {
           image = (<img src={time} className="winReason" alt="time" />)
         }
         output.push(
-          <button key={'round' + i} id={'round' + i} className={'round ' + rounds[i-1].winner} onClick={this.setRound.bind(this, i)}>
+          <button disabled key={'round' + i} id={'round' + i} className={'round ' + rounds[i-1].winner}>
             <strong>{i}</strong>
             {image}
           </button>
         )
       } else {
         output.push(
-          <button disabled key={'round' + i} id={'round' + i} className="round" onClick={this.setRound.bind(this, i)}>
+          <button disabled key={'round' + i} id={'round' + i} className="round">
             <strong>{i}</strong>
           </button>
         )

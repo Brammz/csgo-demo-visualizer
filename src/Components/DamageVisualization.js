@@ -44,7 +44,7 @@ class DamageVisualization extends Component {
       },
       chart: {
         type: 'column',
-        height: '40%',
+        height: '39%',
         backgroundColor: null
       },
       title: {
@@ -97,14 +97,14 @@ class DamageVisualization extends Component {
         data: damageData
       }]
     };
-    
+
     let adrConfig = {
       credits: {
           enabled: false
       },
       chart: {
         type: 'column',
-        height: '40%',
+        height: '39%',
         backgroundColor: null
       },
       title: {
@@ -159,11 +159,9 @@ class DamageVisualization extends Component {
     };
 
     return (
-      <div id="damageVisualization">
-        <div id="damage">
-          <div id="damageGraph">
-            <ReactHighcharts config={damageConfig}></ReactHighcharts>
-          </div>
+      <div id="damage">
+        <div id="damageGraph">
+          <ReactHighcharts config={damageConfig}></ReactHighcharts>
         </div>
         <div id="adrGraph">
           <ReactHighcharts config={adrConfig}></ReactHighcharts>

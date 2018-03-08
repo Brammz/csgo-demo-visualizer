@@ -25,7 +25,6 @@ class App extends Component {
       damage: {},
       economy: []
     };
-    this.stopMatch = this.stopMatch.bind(this);
     this.setPlayer = this.setPlayer.bind(this);
     this.playVideo = this.playVideo.bind(this);
     this.stopVideo = this.stopVideo.bind(this);
@@ -44,19 +43,6 @@ class App extends Component {
 
   componentWillUnmount() {
     clearInterval(this.intervalId);
-  }
-
-  stopMatch() {
-    clearInterval(this.intervalId);
-    this.player.seekTo(1677);
-    this.setState({
-      time: 0,
-      rounds: roundsJSON[0],
-      scores: scoresJSON[0],
-      money:  moneyJSON[0],
-      damage: damageJSON[0],
-      economy: economyJSON[0]
-    });
   }
 
   setPlayer(player) {
@@ -326,26 +312,22 @@ class App extends Component {
     return (
       <div className="App">
         <div id="left">
-          <button onClick={this.stopMatch}>Stop</button>
-          <p>time: {this.state.time}</p>
           <Rounds rounds={this.state.rounds} />
           <EconomyVisualization economy={this.state.economy} />
           <MapVisualization />
-          <div id="media">
-            <ReactPlayer
-              ref={this.setPlayer}
-              className="fill"
-              url="https://www.youtube.com/watch?v=bPVpcZapu40"
-              youtubeConfig={{ playerVars: { start: 1677 } }}
-              controls="true"
-              width='100%'
-              height='80%'
-              onPlay={this.playVideo}
-              onPause={this.stopVideo}
-              onEnded={this.stopVideo}
-              onError={() => console.log('Error encountered when trying to play video.')}
-            />
-          </div>
+          <ReactPlayer
+            ref={this.setPlayer}
+            className="media"
+            url="https://www.youtube.com/watch?v=bPVpcZapu40"
+            youtubeConfig={{ playerVars: { start: 1677 } }}
+            controls="true"
+            width='100%'
+            height='89%'
+            onPlay={this.playVideo}
+            onPause={this.stopVideo}
+            onEnded={this.stopVideo}
+            onError={() => console.log('Error encountered when trying to play video.')}
+          />
         </div>
         <div id="sidebar">
           <Scoreboard scores={this.state.scores} />

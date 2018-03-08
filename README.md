@@ -27,3 +27,9 @@ The demo-files need to be parsed first. Parsing is currently done using [demofil
 The parser is in [another project](https://github.com/Brammz/csgo-demofile-parser) (due to errors when using [demofile](https://github.com/saul/demofile) in combination with [React](https://reactjs.org/)).
 The parser parses the replay-file and creates a json-file for each visualization.
 Each json-file consists of timestamps at which the information was updated, followed by all the information that is needed to create the corresponding visualization.
+
+
+## Notes
+
+* As the event `buytime_ended` is not working, updates for the account and equipemnt value might be delayed.
+* Damage and ADR are currently only damage to the health of a person and don't include damage to armor.

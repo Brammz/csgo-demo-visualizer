@@ -36,7 +36,6 @@ button:focus {
 .App {
   height: 100%;
   width: 100%;
-  background-color: red;
 }
 
 /**********
@@ -47,7 +46,7 @@ button:focus {
   height: 100%;
   width: 66%;
   float: left;
-  background-color: green;
+  background-color: black;
 }
 
 #rounds {
@@ -60,7 +59,7 @@ button:focus {
 
 .round {
   height: 100%;
-  width: 3.225%;
+  width: 3.3333%;
   float: left;
   background-color: #1C1C1C;
 }
@@ -78,13 +77,6 @@ button:focus {
 .winReason {
   height: auto;
   width: 100%;
-}
-
-#roundall {
-  color: black;
-  background: linear-gradient(to right, #F0C557, #88C3F3);
-  background: linear-gradient(to top, #F0C557 0%, #F0C557 50%, #000000 50%, #88C3F3 50%, #88C3F3 100%);
-  background-color: white;
 }
 
 #economy {
@@ -156,17 +148,11 @@ button:focus {
   background-color: pink;
 }
 
-.image {
-  height: 100%;
-  width: auto;
-}
-
 #media {
   height: 90%;
   width: 100%;
   float: left;
-  background-color: black;
-  border: none;
+  clear: left;
 }
 
 #sidebar {
@@ -178,7 +164,7 @@ button:focus {
 }
 
 #scoreboard {
-  height: 42%;
+  height: 43%;
   width: 100%;
   float: left;
   color: black;
@@ -247,6 +233,11 @@ button:focus {
 /******************
  * HELPER CLASSES *
  ******************/
+
+ .image {
+   height: 100%;
+   width: auto;
+ }
 
 .fill {
   height: 99%;

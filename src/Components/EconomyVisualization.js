@@ -110,6 +110,7 @@ class EconomyVisualization extends Component {
         name: 'Spend value (T)',
         data: terroristsSpendData,
         color: '#F9E3AD',
+        visible: false,
         marker: {
           symbol: 'triangle-down'
         }
@@ -124,6 +125,7 @@ class EconomyVisualization extends Component {
         name: 'Spend value (CT)',
         data: ctsSpendData,
         color: '#C3E3FD',
+        visible: false,
         marker: {
           symbol: 'triangle-down'
         }
