@@ -6,7 +6,6 @@ This tool is developed as part of my master's thesis at the KULeuven, Belgium.
 
 ## TODO
 
-* Default setup
 * Damage -> total damage?
 * First round economy money + kloppen andere rondes?
 * Heatmap (contact dev)

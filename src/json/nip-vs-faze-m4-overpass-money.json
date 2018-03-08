@@ -1,4 +1,10 @@
 {
+  "0": {
+    "terroristsAccount": 4000,
+    "terroristsEquipment": 0,
+    "ctAccount": 4000,
+    "ctEquipment": 0
+  },
   "5": {
     "terroristsAccount": 550,
     "terroristsEquipment": 4450,

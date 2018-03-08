@@ -1,4 +1,66 @@
 {
+  "0": {
+    "terrorists": {
+      "teamName": "Ninjas in Pyjamas",
+      "players": [
+        {
+          "name": "REZ",
+          "damage": 0,
+          "adr": 0
+        },
+        {
+          "name": "Xizt",
+          "damage": 0,
+          "adr": 0
+        },
+        {
+          "name": "GeT_RiGhT",
+          "damage": 0,
+          "adr": 0
+        },
+        {
+          "name": "f0rest",
+          "damage": 0,
+          "adr": 0
+        },
+        {
+          "name": "draken",
+          "damage": 0,
+          "adr": 0
+        }
+      ]
+    },
+    "cts": {
+      "teamName": "FaZe Clan",
+      "players": [
+        {
+          "name": "karrigan",
+          "damage": 0,
+          "adr": 0
+        },
+        {
+          "name": "NiKo",
+          "damage": 0,
+          "adr": 0
+        },
+        {
+          "name": "olofmeister",
+          "damage": 0,
+          "adr": 0
+        },
+        {
+          "name": "rain",
+          "damage": 0,
+          "adr": 0
+        },
+        {
+          "name": "GuardiaN",
+          "damage": 0,
+          "adr": 0
+        }
+      ]
+    }
+  },
   "89": {
     "terrorists": {
       "teamName": "Ninjas in Pyjamas",

@@ -1,4 +1,108 @@
 {
+  "0": {
+    "terrorists": {
+      "teamName": "Ninjas in Pyjamas",
+      "score": 0,
+      "players": [
+        {
+          "name": "REZ",
+          "account": 800,
+          "kills": 0,
+          "assists": 0,
+          "deaths": 0,
+          "accuracy": 0,
+          "hsAccuracy": 0
+        },
+        {
+          "name": "Xizt",
+          "account": 800,
+          "kills": 0,
+          "assists": 0,
+          "deaths": 0,
+          "accuracy": 0,
+          "hsAccuracy": 0
+        },
+        {
+          "name": "GeT_RiGhT",
+          "account": 800,
+          "kills": 0,
+          "assists": 0,
+          "deaths": 0,
+          "accuracy": 0,
+          "hsAccuracy": 0
+        },
+        {
+          "name": "f0rest",
+          "account": 800,
+          "kills": 0,
+          "assists": 0,
+          "deaths": 0,
+          "accuracy": 0,
+          "hsAccuracy": 0
+        },
+        {
+          "name": "draken",
+          "account": 800,
+          "kills": 0,
+          "assists": 0,
+          "deaths": 0,
+          "accuracy": 0,
+          "hsAccuracy": 0
+        }
+      ]
+    },
+    "cts": {
+      "teamName": "FaZe Clan",
+      "score": 0,
+      "players": [
+        {
+          "name": "karrigan",
+          "account": 800,
+          "kills": 0,
+          "assists": 0,
+          "deaths": 0,
+          "accuracy": 0,
+          "hsAccuracy": 0
+        },
+        {
+          "name": "NiKo",
+          "account": 800,
+          "kills": 0,
+          "assists": 0,
+          "deaths": 0,
+          "accuracy": 0,
+          "hsAccuracy": 0
+        },
+        {
+          "name": "olofmeister",
+          "account": 800,
+          "kills": 0,
+          "assists": 0,
+          "deaths": 0,
+          "accuracy": 0,
+          "hsAccuracy": 0
+        },
+        {
+          "name": "rain",
+          "account": 800,
+          "kills": 0,
+          "assists": 0,
+          "deaths": 0,
+          "accuracy": 0,
+          "hsAccuracy": 0
+        },
+        {
+          "name": "GuardiaN",
+          "account": 800,
+          "kills": 0,
+          "assists": 0,
+          "deaths": 0,
+          "accuracy": 0,
+          "hsAccuracy": 0
+        }
+      ]
+    }
+  },
   "6": {
     "terrorists": {
       "teamName": "Ninjas in Pyjamas",
