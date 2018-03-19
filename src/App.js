@@ -12,6 +12,7 @@ import scoresJSON from './json/nip-vs-faze-m4-overpass-scores.json';
 import moneyJSON from './json/nip-vs-faze-m4-overpass-money.json';
 import damageJSON from './json/nip-vs-faze-m4-overpass-damage.json';
 import economyJSON from './json/nip-vs-faze-m4-overpass-economy.json';
+import mapJSON from './json/nip-vs-faze-m4-overpass-map.json';
 
 class App extends Component {
 
@@ -23,7 +24,9 @@ class App extends Component {
       scores: {},
       money: {},
       damage: {},
-      economy: []
+      economy: [],
+      map: 'de_dust2',
+      locations: {}
     };
     this.setPlayer = this.setPlayer.bind(this);
     this.playVideo = this.playVideo.bind(this);
@@ -37,7 +40,9 @@ class App extends Component {
       scores: scoresJSON[0],
       money:  moneyJSON[0],
       damage: damageJSON[0],
-      economy: economyJSON[0]
+      economy: economyJSON[0],
+      map: mapJSON['map'],
+      locations: mapJSON[0]
     });
   }
 
@@ -60,7 +65,8 @@ class App extends Component {
       let moneyFound = false;
       let damageFound = false;
       let economyFound = false;
-      for (let i = (Math.floor(this.player.getCurrentTime())-1677); i >= 0 && (!roundsFound || !scoresFound || !moneyFound || !damageFound || !economyFound); i--) {
+      let mapFound = false;
+      for (let i = (Math.floor(this.player.getCurrentTime())-1677); i >= 0 && (!roundsFound || !scoresFound || !moneyFound || !damageFound || !economyFound || !mapFound); i--) {
         if (!roundsFound && roundsJSON[i] !== undefined) {
           roundsFound = true;
           this.setState({
@@ -91,6 +97,12 @@ class App extends Component {
             economy: economyJSON[i]
           });
         }
+        if (!mapFound && mapJSON[i] !== undefined) {
+          mapFound = true;
+          this.setState({
+            locations: mapJSON[i]
+          });
+        }
       }
       if (!roundsFound) {
         this.setState({
@@ -117,6 +129,11 @@ class App extends Component {
           economy: economyJSON[0]
         });
       }
+      if (!mapFound) {
+        this.setState({
+          locations: mapJSON[0]
+        });
+      }
       // set time
       this.setState({
         time: (Math.floor(this.player.getCurrentTime())-1677)
@@ -129,7 +146,8 @@ class App extends Component {
           scores: scoresJSON[this.state.time] === undefined ? this.state.scores : scoresJSON[this.state.time],
           money: moneyJSON[this.state.time] === undefined ? this.state.money : moneyJSON[this.state.time],
           damage: damageJSON[this.state.time] === undefined ? this.state.damage : damageJSON[this.state.time],
-          economy: economyJSON[this.state.time] === undefined ? this.state.economy : economyJSON[this.state.time]
+          economy: economyJSON[this.state.time] === undefined ? this.state.economy : economyJSON[this.state.time],
+          locations: mapJSON[this.state.time] === undefined ? this.state.locations : mapJSON[this.state.time]
         });
       }, 1000);
     }
@@ -145,7 +163,7 @@ class App extends Component {
         <div id="left">
           <Rounds rounds={this.state.rounds} />
           <EconomyVisualization economy={this.state.economy} />
-          <MapVisualization />
+          <MapVisualization map={this.state.map} locations={this.state.locations} />
           <ReactPlayer
             ref={this.setPlayer}
             className="media"

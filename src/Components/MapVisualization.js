@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import map from '../images/map.png';
-import overpass from '../images/map_overpass.png';
 
 class MapVisualization extends Component {
 
@@ -8,14 +7,12 @@ class MapVisualization extends Component {
     super();
     this.state = {
       mapHidden: true,
-      selectedTypeOption: 'heatmap',
-      selectedHeatmapOption: 'kills',
+      selectedMapOption: 'kills',
       selectedTeamOption: 'both',
       selectedRoundOption: 'all'
     }
     this.toggleMap = this.toggleMap.bind(this);
-    this.changeTypeOption = this.changeTypeOption.bind(this);
-    this.changeHeatmapOption = this.changeHeatmapOption.bind(this);
+    this.changeMapOption = this.changeMapOption.bind(this);
     this.changeTeamOption = this.changeTeamOption.bind(this);
     this.changeRoundOption = this.changeRoundOption.bind(this);
   }
@@ -27,15 +24,9 @@ class MapVisualization extends Component {
     });
   }
 
-  changeTypeOption(e) {
+  changeMapOption(e) {
     this.setState({
-      selectedTypeOption: e.target.value
-    });
-  }
-
-  changeHeatmapOption(e) {
-    this.setState({
-      selectedHeatmapOption: e.target.value
+      selectedMapOption: e.target.value
     });
   }
 
@@ -52,6 +43,7 @@ class MapVisualization extends Component {
   }
 
   render() {
+    let image = require('../images/' + this.props.map + '.png');
     return (
       <div id="map">
         <button key="map" id="mapBtn" onClick={this.toggleMap}>
@@ -64,36 +56,24 @@ class MapVisualization extends Component {
             </button>
             <div id="mapOptions">
               <form>
-                <h4>Map type</h4>
+                <h4>Map options</h4>
                 <div className="radio">
-                    <input type="radio" value="heatmap" checked={this.state.selectedTypeOption === 'heatmap'} onChange={this.changeTypeOption} /> Heatmap
+                    <input type="radio" value="kills" checked={this.state.selectedMapOption === 'kills'} onChange={this.changeMapOption} /> Kills
                 </div>
                 <div className="radio">
-                    <input type="radio" value="pathing" checked={this.state.selectedTypeOption === 'pathing'} onChange={this.changeTypeOption} /> Pathing
+                    <input type="radio" value="deaths" checked={this.state.selectedMapOption === 'deaths'} onChange={this.changeMapOption} /> Deaths
+                </div>
+                <div className="radio">
+                    <input type="radio" value="grenades" checked={this.state.selectedMapOption === 'grenades'} onChange={this.changeMapOption} /> Grenades
+                </div>
+                <div className="radio">
+                    <input type="radio" value="smokeGrenades" checked={this.state.selectedMapOption === 'smokeGrenades'} onChange={this.changeMapOption} /> Smoke grenades
+                </div>
+                <div className="radio">
+                    <input type="radio" value="flashbangs" checked={this.state.selectedMapOption === 'flashbangs'} onChange={this.changeMapOption} /> Flashbangs
                 </div>
                 <br />
               </form>
-              {this.state.selectedTypeOption === 'heatmap' && (
-                <form>
-                  <h4>Heatmap options</h4>
-                  <div className="radio">
-                      <input type="radio" value="kills" checked={this.state.selectedHeatmapOption === 'kills'} onChange={this.changeHeatmapOption} /> Kills
-                  </div>
-                  <div className="radio">
-                      <input type="radio" value="deaths" checked={this.state.selectedHeatmapOption === 'deaths'} onChange={this.changeHeatmapOption} /> Deaths
-                  </div>
-                  <div className="radio">
-                      <input type="radio" value="grenades" checked={this.state.selectedHeatmapOption === 'grenades'} onChange={this.changeHeatmapOption} /> Grenades
-                  </div>
-                  <div className="radio">
-                      <input type="radio" value="smokeGrenades" checked={this.state.selectedHeatmapOption === 'smokeGrenades'} onChange={this.changeHeatmapOption} /> Smoke grenades
-                  </div>
-                  <div className="radio">
-                      <input type="radio" value="flashbangs" checked={this.state.selectedHeatmapOption === 'flashbangs'} onChange={this.changeHeatmapOption} /> Flashbangs
-                  </div>
-                  <br />
-                </form>
-              )}
               <form>
                 <h4>Team</h4>
                 <div className="radio">
@@ -123,7 +103,7 @@ class MapVisualization extends Component {
               )}
             </div>
             <div id="mapGraph">
-              <img className="image" src={overpass} alt="map"/>
+              <img className="image" src={image} alt="map"/>
             </div>
           </div>
         )}
