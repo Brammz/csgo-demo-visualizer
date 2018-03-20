@@ -152,6 +152,7 @@ button:focus {
 #mapOptions {
   padding: 10px;
   height: 100%;
+  width: 25%;
   float: left;
   border-right: solid;
   border-right-width: 5px;
@@ -160,6 +161,7 @@ button:focus {
 
 #mapGraph {
   height: 100%;
+  width: 75%;
   float: left;
 }
 

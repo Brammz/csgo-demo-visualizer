@@ -44,6 +44,44 @@ class MapVisualization extends Component {
 
   render() {
     let image = require('../images/' + this.props.map + '.png');
+    let circles = [];
+    if (this.state.selectedTeamOption === 'both' || this.state.selectedTeamOption === 'terrorists') {
+      let positions = [];
+      switch (this.state.selectedMapOption) {
+        case 'kills': positions = this.props.locations.terroristKills; break;
+        case 'deaths': positions = this.props.locations.terroristDeaths; break;
+        case 'grenades': positions = this.props.locations.terroristGrenades; break;
+        case 'smokes': positions = this.props.locations.terroristSmokes; break;
+        case 'flashbangs': positions = this.props.locations.terroristFlashbangs; break;
+        case 'molotovs': positions = this.props.locations.terroristMolotovs; break;
+        case 'decoys': positions = this.props.locations.terroristDecoys; break;
+        default: positions = this.props.locations.terroristKills;
+      }
+      for (let pos of positions) {
+        circles.push(
+          <circle key={pos.x*pos.y} cx={pos.x} cy={pos.y} r="10" stroke="black" strokeWidth="1" fill="#F0C557" opacity="0.4" />
+        );
+      }
+    }
+    if (this.state.selectedTeamOption === 'both' || this.state.selectedTeamOption === 'cts') {
+      let positions = [];
+      switch (this.state.selectedMapOption) {
+        case 'kills': positions = this.props.locations.ctKills; break;
+        case 'deaths': positions = this.props.locations.ctDeaths; break;
+        case 'grenades': positions = this.props.locations.ctGrenades; break;
+        case 'smokes': positions = this.props.locations.ctSmokes; break;
+        case 'flashbangs': positions = this.props.locations.ctFlashbangs; break;
+        case 'molotovs': positions = this.props.locations.ctMolotovs; break;
+        case 'decoys': positions = this.props.locations.ctDecoys; break;
+        default: positions = this.props.locations.ctKills;
+      }
+      for (let pos of positions) {
+        circles.push(
+          <circle key={pos.x*pos.y} cx={pos.x} cy={pos.y} r="10" stroke="black" strokeWidth="1" fill="#88C3F3" opacity="0.4" />
+        );
+      }
+    }
+
     return (
       <div id="map">
         <button key="map" id="mapBtn" onClick={this.toggleMap}>
@@ -67,10 +105,16 @@ class MapVisualization extends Component {
                     <input type="radio" value="grenades" checked={this.state.selectedMapOption === 'grenades'} onChange={this.changeMapOption} /> Grenades
                 </div>
                 <div className="radio">
-                    <input type="radio" value="smokeGrenades" checked={this.state.selectedMapOption === 'smokeGrenades'} onChange={this.changeMapOption} /> Smoke grenades
+                    <input type="radio" value="smokes" checked={this.state.selectedMapOption === 'smokes'} onChange={this.changeMapOption} /> Smoke grenades
                 </div>
                 <div className="radio">
                     <input type="radio" value="flashbangs" checked={this.state.selectedMapOption === 'flashbangs'} onChange={this.changeMapOption} /> Flashbangs
+                </div>
+                <div className="radio">
+                    <input type="radio" value="molotovs" checked={this.state.selectedMapOption === 'molotovs'} onChange={this.changeMapOption} /> Molotovs
+                </div>
+                <div className="radio">
+                    <input type="radio" value="decoys" checked={this.state.selectedMapOption === 'decoys'} onChange={this.changeMapOption} /> Decoys
                 </div>
                 <br />
               </form>
@@ -103,7 +147,10 @@ class MapVisualization extends Component {
               )}
             </div>
             <div id="mapGraph">
-              <img className="image" src={image} alt="map"/>
+              <svg height="720" width="720">
+                <image href={image} alt="map" height="680" />
+                {circles}
+              </svg>
             </div>
           </div>
         )}
