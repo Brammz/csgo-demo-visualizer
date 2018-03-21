@@ -7,19 +7,32 @@ import Scoreboard from './Components/Scoreboard';
 import MoneyVisualization from './Components/MoneyVisualization';
 import DamageVisualization from './Components/DamageVisualization';
 import './App.css';
-import roundsJSON from './json/nip-vs-faze-m4-overpass-rounds.json';
-import scoresJSON from './json/nip-vs-faze-m4-overpass-scores.json';
-import moneyJSON from './json/nip-vs-faze-m4-overpass-money.json';
-import damageJSON from './json/nip-vs-faze-m4-overpass-damage.json';
-import economyJSON from './json/nip-vs-faze-m4-overpass-economy.json';
-import mapJSON from './json/nip-vs-faze-m4-overpass-map.json';
+import roundsJSON from './json/nip-vs-faze-m3-train-rounds.json';
+import scoresJSON from './json/nip-vs-faze-m3-train-scores.json';
+import moneyJSON from './json/nip-vs-faze-m3-train-money.json';
+import damageJSON from './json/nip-vs-faze-m3-train-damage.json';
+import economyJSON from './json/nip-vs-faze-m3-train-economy.json';
+import mapJSON from './json/nip-vs-faze-m3-train-map.json';
 
+/*            JSON            |                   YOUTUBE                   | TIME
+ * --------------------------------------------------------------------------------
+ * nip-vs-faze-m1-cbble       | https://www.youtube.com/watch?v=spkFL9p7y1U | 549
+ * nip-vs-faze-m2-inferno     | https://www.youtube.com/watch?v=49yrquM9mHw | 589
+ * nip-vs-faze-m3-train       | https://www.youtube.com/watch?v=LrbepbJdh8I | 558
+ * nip-vs-faze-m4-overpass    | https://www.youtube.com/watch?v=bPVpcZapu40 | 1677
+ * nip-vs-faze-m5-cache       | https://www.youtube.com/watch?v=GXQkLmz_418 | 522
+ * --------------------------------------------------------------------------------
+ * faze-vs-cloud9-m3-inferno  | https://www.youtube.com/watch?v=Gn9zfWunCEM | 0
+ * faze-vs-fnatic-m5-train    | https://www.youtube.com/watch?v=pDFdhr1HIwc | 627
+ * --------------------------------------------------------------------------------
+ */
 class App extends Component {
 
   constructor() {
     super();
     this.state = {
       time: 0,
+      videoStartTime: 558,
       rounds: [],
       scores: {},
       money: {},
@@ -36,6 +49,7 @@ class App extends Component {
   componentWillMount() {
     this.setState({
       time: 0,
+      videoStartTime: 558,
       rounds: roundsJSON[0],
       scores: scoresJSON[0],
       money:  moneyJSON[0],
@@ -66,7 +80,7 @@ class App extends Component {
       let damageFound = false;
       let economyFound = false;
       let mapFound = false;
-      for (let i = (Math.floor(this.player.getCurrentTime())-1677); i >= 0 && (!roundsFound || !scoresFound || !moneyFound || !damageFound || !economyFound || !mapFound); i--) {
+      for (let i = (Math.floor(this.player.getCurrentTime())-this.state.videoStartTime); i >= 0 && (!roundsFound || !scoresFound || !moneyFound || !damageFound || !economyFound || !mapFound); i--) {
         if (!roundsFound && roundsJSON[i] !== undefined) {
           roundsFound = true;
           this.setState({
@@ -136,7 +150,7 @@ class App extends Component {
       }
       // set time
       this.setState({
-        time: (Math.floor(this.player.getCurrentTime())-1677)
+        time: (Math.floor(this.player.getCurrentTime())-this.state.videoStartTime)
       });
       // set interval
       this.intervalId = setInterval(() => {
@@ -167,8 +181,8 @@ class App extends Component {
           <ReactPlayer
             ref={this.setPlayer}
             className="media"
-            url="https://www.youtube.com/watch?v=bPVpcZapu40"
-            config={{ youtube: { playerVars: { start: 1677 } } }}
+            url="https://www.youtube.com/watch?v=LrbepbJdh8I"
+            config={{ youtube: { playerVars: { start: this.state.videoStartTime } } }}
             controls={true}
             volume={0.5}
             width='100%'

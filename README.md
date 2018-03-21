@@ -6,10 +6,9 @@ This tool is developed as part of my master's thesis at the KULeuven, Belgium.
 
 ## TODO
 
+* Map
 * Round div instead of buttons
 * Economy store active lines
-* Heatmap (contact dev)
-* Pathing
 * Switching teams
 
 ## Technologies used
@@ -20,6 +19,7 @@ This tool is developed as part of my master's thesis at the KULeuven, Belgium.
 * [React-Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/) - Used for styling and money visualizations
 * [React-circular-progressbar](http://www.kevinqi.com/react-circular-progressbar/) - User for accuracy visualization
 * [demofile](https://github.com/saul/demofile) - Node.js library to parse CSGO demo-files
+* [gamevis](https://github.com/saul/gamevis/tree/master/overviews/csgo) - Used for map images and info
 
 ## Information parsing
 

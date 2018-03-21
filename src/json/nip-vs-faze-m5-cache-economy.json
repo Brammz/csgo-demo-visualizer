@@ -1,0 +1,2901 @@
+{
+  "0": [],
+  "16": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    }
+  ],
+  "102": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    }
+  ],
+  "159": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    }
+  ],
+  "310": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    }
+  ],
+  "490": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    }
+  ],
+  "528": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    }
+  ],
+  "609": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    }
+  ],
+  "739": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    }
+  ],
+  "850": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    }
+  ],
+  "974": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    }
+  ],
+  "1155": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    }
+  ],
+  "1202": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    }
+  ],
+  "1337": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    }
+  ],
+  "1492": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    }
+  ],
+  "1624": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    }
+  ],
+  "1777": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    }
+  ],
+  "1867": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    }
+  ],
+  "2093": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    },
+    {
+      "roundNumber": 17,
+      "terroristsRoundStartAccount": 18250,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 8000,
+      "ctRoundSpendValue": 3300
+    }
+  ],
+  "2216": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    },
+    {
+      "roundNumber": 17,
+      "terroristsRoundStartAccount": 18250,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 8000,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 18,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 17050,
+      "ctRoundStartAccount": 14100,
+      "ctRoundSpendValue": 3700
+    }
+  ],
+  "2294": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    },
+    {
+      "roundNumber": 17,
+      "terroristsRoundStartAccount": 18250,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 8000,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 18,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 17050,
+      "ctRoundStartAccount": 14100,
+      "ctRoundSpendValue": 3700
+    },
+    {
+      "roundNumber": 19,
+      "terroristsRoundStartAccount": 32600,
+      "terroristsRoundSpendValue": 6200,
+      "ctRoundStartAccount": 25800,
+      "ctRoundSpendValue": 600
+    }
+  ],
+  "2391": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    },
+    {
+      "roundNumber": 17,
+      "terroristsRoundStartAccount": 18250,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 8000,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 18,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 17050,
+      "ctRoundStartAccount": 14100,
+      "ctRoundSpendValue": 3700
+    },
+    {
+      "roundNumber": 19,
+      "terroristsRoundStartAccount": 32600,
+      "terroristsRoundSpendValue": 6200,
+      "ctRoundStartAccount": 25800,
+      "ctRoundSpendValue": 600
+    },
+    {
+      "roundNumber": 20,
+      "terroristsRoundStartAccount": 29550,
+      "terroristsRoundSpendValue": 10350,
+      "ctRoundStartAccount": 18250,
+      "ctRoundSpendValue": 25300
+    }
+  ],
+  "2490": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    },
+    {
+      "roundNumber": 17,
+      "terroristsRoundStartAccount": 18250,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 8000,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 18,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 17050,
+      "ctRoundStartAccount": 14100,
+      "ctRoundSpendValue": 3700
+    },
+    {
+      "roundNumber": 19,
+      "terroristsRoundStartAccount": 32600,
+      "terroristsRoundSpendValue": 6200,
+      "ctRoundStartAccount": 25800,
+      "ctRoundSpendValue": 600
+    },
+    {
+      "roundNumber": 20,
+      "terroristsRoundStartAccount": 29550,
+      "terroristsRoundSpendValue": 10350,
+      "ctRoundStartAccount": 18250,
+      "ctRoundSpendValue": 25300
+    },
+    {
+      "roundNumber": 21,
+      "terroristsRoundStartAccount": 13700,
+      "terroristsRoundSpendValue": 25650,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 10550
+    }
+  ],
+  "2587": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    },
+    {
+      "roundNumber": 17,
+      "terroristsRoundStartAccount": 18250,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 8000,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 18,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 17050,
+      "ctRoundStartAccount": 14100,
+      "ctRoundSpendValue": 3700
+    },
+    {
+      "roundNumber": 19,
+      "terroristsRoundStartAccount": 32600,
+      "terroristsRoundSpendValue": 6200,
+      "ctRoundStartAccount": 25800,
+      "ctRoundSpendValue": 600
+    },
+    {
+      "roundNumber": 20,
+      "terroristsRoundStartAccount": 29550,
+      "terroristsRoundSpendValue": 10350,
+      "ctRoundStartAccount": 18250,
+      "ctRoundSpendValue": 25300
+    },
+    {
+      "roundNumber": 21,
+      "terroristsRoundStartAccount": 13700,
+      "terroristsRoundSpendValue": 25650,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 10550
+    },
+    {
+      "roundNumber": 22,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 2700,
+      "ctRoundStartAccount": 33600,
+      "ctRoundSpendValue": 9200
+    }
+  ],
+  "2760": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    },
+    {
+      "roundNumber": 17,
+      "terroristsRoundStartAccount": 18250,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 8000,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 18,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 17050,
+      "ctRoundStartAccount": 14100,
+      "ctRoundSpendValue": 3700
+    },
+    {
+      "roundNumber": 19,
+      "terroristsRoundStartAccount": 32600,
+      "terroristsRoundSpendValue": 6200,
+      "ctRoundStartAccount": 25800,
+      "ctRoundSpendValue": 600
+    },
+    {
+      "roundNumber": 20,
+      "terroristsRoundStartAccount": 29550,
+      "terroristsRoundSpendValue": 10350,
+      "ctRoundStartAccount": 18250,
+      "ctRoundSpendValue": 25300
+    },
+    {
+      "roundNumber": 21,
+      "terroristsRoundStartAccount": 13700,
+      "terroristsRoundSpendValue": 25650,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 10550
+    },
+    {
+      "roundNumber": 22,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 2700,
+      "ctRoundStartAccount": 33600,
+      "ctRoundSpendValue": 9200
+    },
+    {
+      "roundNumber": 23,
+      "terroristsRoundStartAccount": 16500,
+      "terroristsRoundSpendValue": 22500,
+      "ctRoundStartAccount": 37150,
+      "ctRoundSpendValue": 14200
+    }
+  ],
+  "2904": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    },
+    {
+      "roundNumber": 17,
+      "terroristsRoundStartAccount": 18250,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 8000,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 18,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 17050,
+      "ctRoundStartAccount": 14100,
+      "ctRoundSpendValue": 3700
+    },
+    {
+      "roundNumber": 19,
+      "terroristsRoundStartAccount": 32600,
+      "terroristsRoundSpendValue": 6200,
+      "ctRoundStartAccount": 25800,
+      "ctRoundSpendValue": 600
+    },
+    {
+      "roundNumber": 20,
+      "terroristsRoundStartAccount": 29550,
+      "terroristsRoundSpendValue": 10350,
+      "ctRoundStartAccount": 18250,
+      "ctRoundSpendValue": 25300
+    },
+    {
+      "roundNumber": 21,
+      "terroristsRoundStartAccount": 13700,
+      "terroristsRoundSpendValue": 25650,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 10550
+    },
+    {
+      "roundNumber": 22,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 2700,
+      "ctRoundStartAccount": 33600,
+      "ctRoundSpendValue": 9200
+    },
+    {
+      "roundNumber": 23,
+      "terroristsRoundStartAccount": 16500,
+      "terroristsRoundSpendValue": 22500,
+      "ctRoundStartAccount": 37150,
+      "ctRoundSpendValue": 14200
+    },
+    {
+      "roundNumber": 24,
+      "terroristsRoundStartAccount": 30250,
+      "terroristsRoundSpendValue": 8150,
+      "ctRoundStartAccount": 35900,
+      "ctRoundSpendValue": 20550
+    }
+  ],
+  "3075": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    },
+    {
+      "roundNumber": 17,
+      "terroristsRoundStartAccount": 18250,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 8000,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 18,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 17050,
+      "ctRoundStartAccount": 14100,
+      "ctRoundSpendValue": 3700
+    },
+    {
+      "roundNumber": 19,
+      "terroristsRoundStartAccount": 32600,
+      "terroristsRoundSpendValue": 6200,
+      "ctRoundStartAccount": 25800,
+      "ctRoundSpendValue": 600
+    },
+    {
+      "roundNumber": 20,
+      "terroristsRoundStartAccount": 29550,
+      "terroristsRoundSpendValue": 10350,
+      "ctRoundStartAccount": 18250,
+      "ctRoundSpendValue": 25300
+    },
+    {
+      "roundNumber": 21,
+      "terroristsRoundStartAccount": 13700,
+      "terroristsRoundSpendValue": 25650,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 10550
+    },
+    {
+      "roundNumber": 22,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 2700,
+      "ctRoundStartAccount": 33600,
+      "ctRoundSpendValue": 9200
+    },
+    {
+      "roundNumber": 23,
+      "terroristsRoundStartAccount": 16500,
+      "terroristsRoundSpendValue": 22500,
+      "ctRoundStartAccount": 37150,
+      "ctRoundSpendValue": 14200
+    },
+    {
+      "roundNumber": 24,
+      "terroristsRoundStartAccount": 30250,
+      "terroristsRoundSpendValue": 8150,
+      "ctRoundStartAccount": 35900,
+      "ctRoundSpendValue": 20550
+    },
+    {
+      "roundNumber": 25,
+      "terroristsRoundStartAccount": 18200,
+      "terroristsRoundSpendValue": 26050,
+      "ctRoundStartAccount": 37950,
+      "ctRoundSpendValue": 15400
+    }
+  ],
+  "3216": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    },
+    {
+      "roundNumber": 17,
+      "terroristsRoundStartAccount": 18250,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 8000,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 18,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 17050,
+      "ctRoundStartAccount": 14100,
+      "ctRoundSpendValue": 3700
+    },
+    {
+      "roundNumber": 19,
+      "terroristsRoundStartAccount": 32600,
+      "terroristsRoundSpendValue": 6200,
+      "ctRoundStartAccount": 25800,
+      "ctRoundSpendValue": 600
+    },
+    {
+      "roundNumber": 20,
+      "terroristsRoundStartAccount": 29550,
+      "terroristsRoundSpendValue": 10350,
+      "ctRoundStartAccount": 18250,
+      "ctRoundSpendValue": 25300
+    },
+    {
+      "roundNumber": 21,
+      "terroristsRoundStartAccount": 13700,
+      "terroristsRoundSpendValue": 25650,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 10550
+    },
+    {
+      "roundNumber": 22,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 2700,
+      "ctRoundStartAccount": 33600,
+      "ctRoundSpendValue": 9200
+    },
+    {
+      "roundNumber": 23,
+      "terroristsRoundStartAccount": 16500,
+      "terroristsRoundSpendValue": 22500,
+      "ctRoundStartAccount": 37150,
+      "ctRoundSpendValue": 14200
+    },
+    {
+      "roundNumber": 24,
+      "terroristsRoundStartAccount": 30250,
+      "terroristsRoundSpendValue": 8150,
+      "ctRoundStartAccount": 35900,
+      "ctRoundSpendValue": 20550
+    },
+    {
+      "roundNumber": 25,
+      "terroristsRoundStartAccount": 18200,
+      "terroristsRoundSpendValue": 26050,
+      "ctRoundStartAccount": 37950,
+      "ctRoundSpendValue": 15400
+    },
+    {
+      "roundNumber": 26,
+      "terroristsRoundStartAccount": 18750,
+      "terroristsRoundSpendValue": 17500,
+      "ctRoundStartAccount": 30950,
+      "ctRoundSpendValue": 15200
+    }
+  ],
+  "3385": [
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 9200,
+      "terroristsRoundSpendValue": 3300,
+      "ctRoundStartAccount": 24350,
+      "ctRoundSpendValue": 3400
+    },
+    {
+      "roundNumber": 1,
+      "terroristsRoundStartAccount": 550,
+      "terroristsRoundSpendValue": 3450,
+      "ctRoundStartAccount": 700,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 2,
+      "terroristsRoundStartAccount": 7800,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 18450,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 3,
+      "terroristsRoundStartAccount": 19100,
+      "terroristsRoundSpendValue": 7650,
+      "ctRoundStartAccount": 9200,
+      "ctRoundSpendValue": 17450
+    },
+    {
+      "roundNumber": 4,
+      "terroristsRoundStartAccount": 14300,
+      "terroristsRoundSpendValue": 17000,
+      "ctRoundStartAccount": 19550,
+      "ctRoundSpendValue": 8950
+    },
+    {
+      "roundNumber": 5,
+      "terroristsRoundStartAccount": 22400,
+      "terroristsRoundSpendValue": 1400,
+      "ctRoundStartAccount": 20850,
+      "ctRoundSpendValue": 16750
+    },
+    {
+      "roundNumber": 6,
+      "terroristsRoundStartAccount": 18350,
+      "terroristsRoundSpendValue": 21800,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 3600
+    },
+    {
+      "roundNumber": 7,
+      "terroristsRoundStartAccount": 21300,
+      "terroristsRoundSpendValue": 16350,
+      "ctRoundStartAccount": 10350,
+      "ctRoundSpendValue": 24900
+    },
+    {
+      "roundNumber": 8,
+      "terroristsRoundStartAccount": 27400,
+      "terroristsRoundSpendValue": 12600,
+      "ctRoundStartAccount": 22250,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 9,
+      "terroristsRoundStartAccount": 26900,
+      "terroristsRoundSpendValue": 7800,
+      "ctRoundStartAccount": 22500,
+      "ctRoundSpendValue": 17500
+    },
+    {
+      "roundNumber": 10,
+      "terroristsRoundStartAccount": 12250,
+      "terroristsRoundSpendValue": 24150,
+      "ctRoundStartAccount": 28500,
+      "ctRoundSpendValue": 11350
+    },
+    {
+      "roundNumber": 11,
+      "terroristsRoundStartAccount": 24050,
+      "terroristsRoundSpendValue": 800,
+      "ctRoundStartAccount": 37650,
+      "ctRoundSpendValue": 8600
+    },
+    {
+      "roundNumber": 12,
+      "terroristsRoundStartAccount": 18550,
+      "terroristsRoundSpendValue": 23350,
+      "ctRoundStartAccount": 32450,
+      "ctRoundSpendValue": 12600
+    },
+    {
+      "roundNumber": 13,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 13000,
+      "ctRoundStartAccount": 12550,
+      "ctRoundSpendValue": 30200
+    },
+    {
+      "roundNumber": 14,
+      "terroristsRoundStartAccount": 21650,
+      "terroristsRoundSpendValue": 20950,
+      "ctRoundStartAccount": 24550,
+      "ctRoundSpendValue": 300
+    },
+    {
+      "roundNumber": 15,
+      "terroristsRoundStartAccount": 31850,
+      "terroristsRoundSpendValue": 8600,
+      "ctRoundStartAccount": 16250,
+      "ctRoundSpendValue": 24100
+    },
+    {
+      "roundNumber": 16,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 28750,
+      "ctRoundStartAccount": 18550,
+      "ctRoundSpendValue": 15600
+    },
+    {
+      "roundNumber": 17,
+      "terroristsRoundStartAccount": 18250,
+      "terroristsRoundSpendValue": 3500,
+      "ctRoundStartAccount": 8000,
+      "ctRoundSpendValue": 3300
+    },
+    {
+      "roundNumber": 18,
+      "terroristsRoundStartAccount": 20750,
+      "terroristsRoundSpendValue": 17050,
+      "ctRoundStartAccount": 14100,
+      "ctRoundSpendValue": 3700
+    },
+    {
+      "roundNumber": 19,
+      "terroristsRoundStartAccount": 32600,
+      "terroristsRoundSpendValue": 6200,
+      "ctRoundStartAccount": 25800,
+      "ctRoundSpendValue": 600
+    },
+    {
+      "roundNumber": 20,
+      "terroristsRoundStartAccount": 29550,
+      "terroristsRoundSpendValue": 10350,
+      "ctRoundStartAccount": 18250,
+      "ctRoundSpendValue": 25300
+    },
+    {
+      "roundNumber": 21,
+      "terroristsRoundStartAccount": 13700,
+      "terroristsRoundSpendValue": 25650,
+      "ctRoundStartAccount": 25450,
+      "ctRoundSpendValue": 10550
+    },
+    {
+      "roundNumber": 22,
+      "terroristsRoundStartAccount": 23600,
+      "terroristsRoundSpendValue": 2700,
+      "ctRoundStartAccount": 33600,
+      "ctRoundSpendValue": 9200
+    },
+    {
+      "roundNumber": 23,
+      "terroristsRoundStartAccount": 16500,
+      "terroristsRoundSpendValue": 22500,
+      "ctRoundStartAccount": 37150,
+      "ctRoundSpendValue": 14200
+    },
+    {
+      "roundNumber": 24,
+      "terroristsRoundStartAccount": 30250,
+      "terroristsRoundSpendValue": 8150,
+      "ctRoundStartAccount": 35900,
+      "ctRoundSpendValue": 20550
+    },
+    {
+      "roundNumber": 25,
+      "terroristsRoundStartAccount": 18200,
+      "terroristsRoundSpendValue": 26050,
+      "ctRoundStartAccount": 37950,
+      "ctRoundSpendValue": 15400
+    },
+    {
+      "roundNumber": 26,
+      "terroristsRoundStartAccount": 18750,
+      "terroristsRoundSpendValue": 17500,
+      "ctRoundStartAccount": 30950,
+      "ctRoundSpendValue": 15200
+    },
+    {
+      "roundNumber": 27,
+      "terroristsRoundStartAccount": 9050,
+      "terroristsRoundSpendValue": 0,
+      "ctRoundStartAccount": 20600,
+      "ctRoundSpendValue": 0
+    }
+  ]
+}

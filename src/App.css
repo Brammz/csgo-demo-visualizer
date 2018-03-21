@@ -140,11 +140,12 @@ button:focus {
   position: absolute;
   top: 15%;
   left: 10%;
-  height: 70%;
+  height: 772px;
+  width: 972px;
   z-index: 1;
   background-color: #1C1C1C;
   border: solid;
-  border-width: 5px;
+  border-width: 2px;
   border-color: white;
   display: inline-block;
 }
@@ -152,17 +153,18 @@ button:focus {
 #mapOptions {
   padding: 10px;
   height: 100%;
-  width: 25%;
+  width: 200px;
   float: left;
   border-right: solid;
-  border-right-width: 5px;
+  border-right-width: 2px;
   border-right-color: white;
 }
 
 #mapGraph {
   height: 100%;
-  width: 75%;
+  width: 768px;
   float: left;
+  background-color: pink;
 }
 
 #media {

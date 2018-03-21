@@ -43,8 +43,10 @@ class MapVisualization extends Component {
   }
 
   render() {
-    let image = require('../images/' + this.props.map + '.png');
+    let image = require('../maps/' + this.props.map + '.png');
+    let mapInfo = require('../maps/' + this.props.map + '.json');
     let circles = [];
+    /*
     if (this.state.selectedTeamOption === 'both' || this.state.selectedTeamOption === 'terrorists') {
       let positions = [];
       switch (this.state.selectedMapOption) {
@@ -58,8 +60,10 @@ class MapVisualization extends Component {
         default: positions = this.props.locations.terroristKills;
       }
       for (let pos of positions) {
+        let x = (pos.x - mapInfo.pos_x) / (mapInfo.scale*3/4);
+        let y = (pos.y - mapInfo.pos_y) / (mapInfo.scale*3/4);
         circles.push(
-          <circle key={pos.x*pos.y} cx={pos.x} cy={pos.y} r="10" stroke="black" strokeWidth="1" fill="#F0C557" opacity="0.4" />
+          <circle key={x*y} cx={x} cy={y} r="5" stroke="black" strokeWidth="1" fill="#F0C557" opacity="0.4" />
         );
       }
     }
@@ -76,12 +80,14 @@ class MapVisualization extends Component {
         default: positions = this.props.locations.ctKills;
       }
       for (let pos of positions) {
+        let x = Math.abs((pos.x - mapInfo.pos_x) / (mapInfo.scale*3/4))
+        let y = Math.abs((pos.y - mapInfo.pos_y) / (mapInfo.scale*3/4));
         circles.push(
-          <circle key={pos.x*pos.y} cx={pos.x} cy={pos.y} r="10" stroke="black" strokeWidth="1" fill="#88C3F3" opacity="0.4" />
+          <circle key={x*y} cx={x} cy={y} r="5" stroke="black" strokeWidth="1" fill="#88C3F3" opacity="0.4" zIndex="2" />
         );
       }
     }
-
+    */
     return (
       <div id="map">
         <button key="map" id="mapBtn" onClick={this.toggleMap}>
@@ -147,8 +153,13 @@ class MapVisualization extends Component {
               )}
             </div>
             <div id="mapGraph">
-              <svg height="720" width="720">
-                <image href={image} alt="map" height="680" />
+              <svg viewBox="0 0 768 768">
+                <image href={image} alt="map" height="768" width="768" />
+                <circle key={'test1'} cx={10} cy={10} r="5" stroke="white" fill="purple" />
+                <circle key={'test2'} cx={50} cy={50} r="5" stroke="white" fill="purple" />
+                <circle key={'test3'} cx={200} cy={200} r="5" stroke="white" fill="purple" />
+                <circle key={'test4'} cx={500} cy={500} r="5" stroke="white" fill="purple" />
+                <circle key={'test5'} cx={768} cy={768} r="5" stroke="white" fill="purple" />
                 {circles}
               </svg>
             </div>

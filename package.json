@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "d3": "^4.12.2",
-    "demofile": "^0.4.12",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.0",
     "react-circular-progressbar": "^0.6.0",
