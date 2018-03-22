@@ -23,17 +23,25 @@ class Rounds extends Component {
           image = (<img src={time} className="winReason" alt="time" />)
         }
         output.push(
-          <button disabled key={'round' + i} id={'round' + i} className={'roundPlayed ' + rounds[i-1].winner}>
+          <button disabled key={'round' + i} id={'round' + i} className={'round ' + rounds[i-1].winner}>
             <strong>{i}</strong>
             {image}
           </button>
         )
       } else if (i === rounds.length+1) {
-        output.push(
-          <button disabled key={'round' + i} id={'round' + i} className="roundActive">
-            <strong>{i}</strong>
-          </button>
-        )
+        if (this.props.playing) {
+          output.push(
+            <button disabled key={'round' + i} id={'round' + i} className="round roundActive">
+              <strong>{i}</strong>
+            </button>
+          )
+        } else {
+          output.push(
+            <button disabled key={'round' + i} id={'round' + i} className="round">
+              <strong>{i}</strong>
+            </button>
+          )
+        }
       } else {
         output.push(
           <button disabled key={'round' + i} id={'round' + i} className="round">

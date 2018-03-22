@@ -33,6 +33,7 @@ class App extends Component {
     this.state = {
       time: 0,
       videoStartTime: 558,
+      playing: false,
       rounds: [],
       scores: {},
       money: {},
@@ -50,6 +51,7 @@ class App extends Component {
     this.setState({
       time: 0,
       videoStartTime: 558,
+      playing: false,
       rounds: roundsJSON[0],
       scores: scoresJSON[0],
       money:  moneyJSON[0],
@@ -148,9 +150,10 @@ class App extends Component {
           locations: mapJSON[0]
         });
       }
-      // set time
+      // set time + playing
       this.setState({
-        time: (Math.floor(this.player.getCurrentTime())-this.state.videoStartTime)
+        time: (Math.floor(this.player.getCurrentTime())-this.state.videoStartTime),
+        playing: true
       });
       // set interval
       this.intervalId = setInterval(() => {
@@ -169,13 +172,16 @@ class App extends Component {
 
   stopVideo() {
     clearInterval(this.intervalId);
+    this.setState({
+      playing: false
+    });
   }
 
   render() {
     return (
       <div className="App">
         <div id="left">
-          <Rounds rounds={this.state.rounds} />
+          <Rounds playing={this.state.playing} rounds={this.state.rounds} />
           <EconomyVisualization economy={this.state.economy} />
           <MapVisualization map={this.state.map} locations={this.state.locations} />
           <ReactPlayer
