@@ -154,7 +154,6 @@ button:focus {
   height: 100%;
   width: 768px;
   float: left;
-  background-color: pink;
 }
 
 #media {
@@ -173,7 +172,7 @@ button:focus {
 }
 
 #scoreboard {
-  height: 43%;
+  height: 42%;
   width: 100%;
   float: left;
   color: black;
@@ -205,6 +204,13 @@ button:focus {
   width: 100%;
   float: left;
   clear: left;
+  text-align: center;
+}
+
+.progress {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  height: 1.2rem;
 }
 
 .progress-bar-warning {
@@ -274,6 +280,18 @@ button:focus {
 }
 
 .right-float {
+  float: right;
+}
+
+.left-block {
+  float: left;
+}
+
+.middle-block {
+  display: inline-block;
+}
+
+.right-block {
   float: right;
 }
 

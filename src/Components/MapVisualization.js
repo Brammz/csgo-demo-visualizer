@@ -59,12 +59,11 @@ class MapVisualization extends Component {
         case 'decoys': positions = this.props.locations.terroristDecoys; break;
         default: positions = this.props.locations.terroristKills;
       }
-      console.log(mapInfo);
       for (let pos of positions) {
         let x = (pos.x - mapInfo.pos_x) / (mapInfo.scale*4/3);
         let y = (pos.y - mapInfo.pos_y) / (mapInfo.scale*4/3);
         circles.push(
-          <circle key={x*y} cx={x} cy={-y} r="5" stroke="black" strokeWidth="1" fill="#F0C557" opacity="0.5" />
+          <circle key={x*y} cx={x} cy={-y} r="6" stroke="white" strokeWidth="1" fill="#F0C557" fillOpacity="0.6" />
         );
       }
     }
@@ -85,7 +84,7 @@ class MapVisualization extends Component {
         let x = (pos.x - mapInfo.pos_x) / (mapInfo.scale*4/3);
         let y = (pos.y - mapInfo.pos_y) / (mapInfo.scale*4/3);
         circles.push(
-          <circle key={x*y} cx={x} cy={-y} r="5" stroke="black" strokeWidth="1" fill="#88C3F3" opacity="0.5" />
+          <circle key={x*y} cx={x} cy={-y} r="6" stroke="white" strokeWidth="1" fill="#88C3F3" fillOpacity="0.6" />
         );
       }
     }
@@ -139,20 +138,6 @@ class MapVisualization extends Component {
                 </div>
                 <br />
               </form>
-              {this.state.selectedTeamOption !== 'both' && (
-                <form>
-                  <h4>Rounds</h4>
-                  <div className="radio">
-                      <input type="radio" value="all" checked={this.state.selectedRoundOption === 'all'} onChange={this.changeRoundOption} /> All
-                  </div>
-                  <div className="radio">
-                      <input type="radio" value="won" checked={this.state.selectedRoundOption === 'won'} onChange={this.changeRoundOption} /> Won
-                  </div>
-                  <div className="radio">
-                      <input type="radio" value="lost" checked={this.state.selectedRoundOption === 'lost'} onChange={this.changeRoundOption} /> Lost
-                  </div>
-                </form>
-              )}
             </div>
             <div id="mapGraph">
               <svg viewBox="0 0 768 768">

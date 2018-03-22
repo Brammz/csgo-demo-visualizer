@@ -10,17 +10,21 @@ class MoneyVisualization extends Component {
 
     return (
       <div id="money">
-        <span className="left-float">${money.terroristsAccount}</span><span className="right-float">${money.ctAccount}</span><br />
+        <div className="left-block">${money.terroristsAccount}</div>
+        <div className="middle-block">Account</div>
+        <div className="right-block">${money.ctAccount}</div>
         <ProgressBar>
           <ProgressBar bsStyle="warning" now={money.terroristsAccount/totalAccount*100} key={1} />
           <ProgressBar bsStyle="info" now={money.ctAccount/totalAccount*100} key={2} />
         </ProgressBar>
-        <br />
+        <div style={{height:'0px'}}></div>
         <ProgressBar>
           <ProgressBar bsStyle="warning" now={money.terroristsEquipment/totalEquipment*100} key={3} />
           <ProgressBar bsStyle="info" now={money.ctEquipment/totalEquipment*100} key={4} />
         </ProgressBar>
-        <span className="left-float">${money.terroristsEquipment}</span><span className="right-float">${money.ctEquipment}</span><br />
+        <div className="left-block">${money.terroristsEquipment}</div>
+        <div className="middle-block">Equipment</div>
+        <div className="right-block">${money.ctEquipment}</div>
       </div>
     );
   }
