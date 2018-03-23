@@ -58,10 +58,16 @@ button:focus {
 }
 
 .round {
+  margin-left: 0.1%;
+  margin-right: 0.1%;
   height: 100%;
-  width: 3.3333%;
+  width: 3.125%;
   float: left;
   background-color: #1C1C1C;
+  border: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: white;
 }
 
 .roundActive {

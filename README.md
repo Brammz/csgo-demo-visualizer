@@ -6,8 +6,6 @@ This tool is developed as part of my master's thesis at the KULeuven, Belgium.
 
 ## TODO
 
-* Map
-* Round div instead of buttons
 * Economy store active lines
 * Switching teams
 
@@ -33,3 +31,4 @@ Each json-file consists of timestamps at which the information was updated, foll
 
 * As the event `buytime_ended` is not working, updates for the account and equipemnt value might be delayed.
 * Damage and ADR are currently only damage to the health of a person and don't include damage to armor.
+* Headshot percentage is only updated at the end of each round.

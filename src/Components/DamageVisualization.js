@@ -11,102 +11,37 @@ class DamageVisualization extends Component {
   render() {
     let damage = this.props.damage;
     let xAxis = [];
-    let damageData = [];
-    let adrData = [];
+    let data = [];
 
     for (let t of damage['terrorists']['players']) {
       xAxis.push(t.name);
-      damageData.push({
-        y: t.damage,
-        color: '#F0C557'
-      });
-      adrData.push({
+      data.push({
         y: (Math.round(t.adr * 100) / 100),
+        damage: t.damage,
         color: '#F0C557'
       });
     }
 
     for (let ct of damage['cts']['players']) {
       xAxis.push(ct.name);
-      damageData.push({
-        y: ct.damage,
-        color: '#88C3F3'
-      });
-      adrData.push({
+      data.push({
         y: (Math.round(ct.adr * 100) / 100),
+        damage: ct.damage,
         color: '#88C3F3'
       });
     }
 
-    let damageConfig = {
+    let config = {
       credits: {
           enabled: false
       },
       chart: {
         type: 'column',
-        height: '39%',
+        height: '50%',
         backgroundColor: null
       },
-      title: {
-        text: 'Damage Dealt',
-        style: {
-          color: 'rgba(255, 255, 255, 1)',
-          font: '16px'
-        },
-        margin: 0
-      },
-      xAxis: {
-        categories: xAxis,
-        lineColor: '#FFFFFF',
-        tickColor: '#FFFFFF',
-        labels: {
-          style : {
-            color: 'rgba(255, 255, 255, 1)',
-            font: 'sans-serif'
-          }
-        }
-      },
-      yAxis: {
-        min: 0,
-        title: null,
-        /*
-        title: {
-          text: 'Damage dealt',
-          style : {
-            color: 'rgba(255, 255, 255, 1)',
-            font: '16px sans-serif'
-          }
-        },
-        */
-        labels: {
-          style: {
-            color: '#FFFFFF'
-          }
-        },
-        lineColor: '#FFFFFF',
-        tickColor: '#FFFFFF',
-      },
-      legend: {
-        enabled: false
-      },
-      tooltip: {
-        headerFormat: '<span style="font-size: 14px;font-weight: bold">{point.key}</span><br/>',
-        pointFormat: '{point.y}'
-      },
-      series: [{
-        data: damageData
-      }]
-    };
-
-    let adrConfig = {
-      credits: {
-          enabled: false
-      },
-      chart: {
-        type: 'column',
-        height: '39%',
-        backgroundColor: null
-      },
+      title: null,
+      /*
       title: {
         text: 'Average Damage per Round',
         style: {
@@ -115,6 +50,7 @@ class DamageVisualization extends Component {
         },
         margin: 0
       },
+      */
       xAxis: {
         categories: xAxis,
         lineColor: '#FFFFFF',
@@ -129,15 +65,6 @@ class DamageVisualization extends Component {
       yAxis: {
         min: 0,
         title: null,
-        /*
-        title: {
-          text: 'Average Damage per Round',
-          style : {
-            color: 'rgba(255, 255, 255, 1)',
-            font: '16px sans-serif'
-          }
-        },
-        */
         labels: {
           style: {
             color: '#FFFFFF'
@@ -150,21 +77,21 @@ class DamageVisualization extends Component {
         enabled: false
       },
       tooltip: {
-        headerFormat: '<span style="font-size: 14px;font-weight: bold">{point.key}</span><br/>',
-        pointFormat: '{point.y}'
+        formatter: function() {
+          return '<b>' + this.point.key + '</b>' + '<br />' +
+                 'ADR: ' + this.point.y + '<br />' +
+                 'Damage: ' + this.point.damage;
+        }
       },
       series: [{
-        data: adrData
+        data: data
       }]
     };
 
     return (
       <div id="damage">
         <div id="damageGraph">
-          <ReactHighcharts config={damageConfig}></ReactHighcharts>
-        </div>
-        <div id="adrGraph">
-          <ReactHighcharts config={adrConfig}></ReactHighcharts>
+          <ReactHighcharts config={config}></ReactHighcharts>
         </div>
       </div>
     );
