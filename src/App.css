@@ -170,33 +170,69 @@ button:focus {
 }
 
 #sidebar {
-  padding: 15px;
+  padding: 15px 20px;
   height: 100%;
   width: 34%;
   float: right;
   background-color: #1C1C1C;
 }
 
+.title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 2.5%;
+  width: 100%;
+  float: left;
+  font-size: 12pt;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.titleTop {
+  margin-top: 0;
+}
+
 #scoreboard {
-  height: 42%;
+  height: 34%;
   width: 100%;
   float: left;
   color: black;
 }
 
 #team1 {
+  height: 100%;
   width: 50%;
   float: left;
   background-color: #F0C557;
 }
 
 #team2 {
+  height: 100%;
   width: 50%;
   float: left;
   background-color: #88C3F3;
 }
 
+.teamName {
+  padding-top: 3px;
+  height: 10%;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
 .player {
+  height: 18%;
   padding: 5px 5px 0px 5px;
   float: left;
   border-style: solid;
@@ -205,8 +241,8 @@ button:focus {
 }
 
 #money {
-  padding: 1% 1px 1% 1px;
-  height: 11%;
+  padding: 0px 1px 0px 1px;
+  height: 10%;
   width: 100%;
   float: left;
   clear: left;
@@ -228,7 +264,7 @@ button:focus {
 }
 
 #damage {
-  height: 23%;
+  height: 33%;
   width: 100%;
   float: left;
   clear: left;
@@ -236,19 +272,6 @@ button:focus {
 
 #damageGraph {
   margin-right: 25px;
-  height: 100%;
-}
-
-#adr {
-  height: 23%;
-  width: 100%;
-  float: left;
-  clear: left;
-}
-
-#adrGraph {
-  margin-right: 25px;
-  height: 100%;
 }
 
 /******************

@@ -200,8 +200,11 @@ class App extends Component {
           />
         </div>
         <div id="sidebar">
+          <div className="title titleTop">Scoreboard</div>
           <Scoreboard scores={this.state.scores} />
+          <div className="title">Money distribution</div>
           <MoneyVisualization money={this.state.money} />
+          <div className="title">Average Damage per Round</div>
           <DamageVisualization damage={this.state.damage} />
         </div>
       </div>

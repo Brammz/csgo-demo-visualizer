@@ -37,7 +37,7 @@ class DamageVisualization extends Component {
       },
       chart: {
         type: 'column',
-        height: '50%',
+        height: '55%',
         backgroundColor: null
       },
       title: null,
