@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
 import Rounds from './Components/Rounds';
 import EconomyVisualization from './Components/EconomyVisualization';
 import MapVisualization from './Components/MapVisualization';

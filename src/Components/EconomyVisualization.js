@@ -104,7 +104,7 @@ class EconomyVisualization extends Component {
         series: {
           events: {
             legendItemClick: function(e) {
-              let lineId = e.target.userOptions.id;
+              //let lineId = e.target.userOptions.id;
               /*
               if (lineId === 'terroristsAccountData') {
                 this.setState({

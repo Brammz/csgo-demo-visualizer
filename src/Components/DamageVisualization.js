@@ -78,9 +78,7 @@ class DamageVisualization extends Component {
       },
       tooltip: {
         formatter: function() {
-          return '<b>' + this.point.key + '</b>' + '<br />' +
-                 'ADR: ' + this.point.y + '<br />' +
-                 'Damage: ' + this.point.damage;
+          return '<b>' + this.point.key + '</b><br />ADR: ' + this.point.y + '<br />Damage: ' + this.point.damage;
         }
       },
       series: [{
