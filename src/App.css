@@ -235,7 +235,6 @@ button:focus {
 .progress {
   margin-top: 3px;
   margin-bottom: 5px;
-  height: 1.3rem;
 }
 
 .progress-bar-warning {
@@ -260,6 +259,11 @@ button:focus {
 /******************
  * HELPER CLASSES *
  ******************/
+
+.fullsize {
+  height: 100%;
+  width: 100%;
+}
 
  .image {
    height: 100%;

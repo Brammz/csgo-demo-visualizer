@@ -6,6 +6,7 @@ import MapVisualization from './Components/MapVisualization';
 import Scoreboard from './Components/Scoreboard';
 import MoneyVisualization from './Components/MoneyVisualization';
 import DamageVisualization from './Components/DamageVisualization';
+import Calibration from './Eyetracking/Calibration';
 import './App.css';
 import roundsJSON from './json/nip-vs-faze-m3-train-rounds.json';
 import scoresJSON from './json/nip-vs-faze-m3-train-scores.json';
@@ -32,7 +33,6 @@ class App extends Component {
     super();
     this.state = {
       time: 0,
-      videoStartTime: 558,
       playing: false,
       rounds: [],
       scores: {},
@@ -40,17 +40,26 @@ class App extends Component {
       damage: {},
       economy: [],
       map: 'de_dust2',
-      locations: {}
+      locations: {},
+      eyeTracking: {
+        x: 0,
+        y: 0
+      },
+      calibrated: false
     };
+    this.videoStartTime = 558;
+    this.videoURL = 'https://www.youtube.com/watch?v=LrbepbJdh8I';
     this.setPlayer = this.setPlayer.bind(this);
     this.playVideo = this.playVideo.bind(this);
     this.stopVideo = this.stopVideo.bind(this);
+    this.stopCalibrating = this.stopCalibrating.bind(this);
+    this.setEyeTrackingPrediction = this.setEyeTrackingPrediction.bind(this);
+    this.recordedPoints = [];
   }
 
   componentWillMount() {
     this.setState({
       time: 0,
-      videoStartTime: 558,
       playing: false,
       rounds: roundsJSON[0],
       scores: scoresJSON[0],
@@ -58,7 +67,12 @@ class App extends Component {
       damage: damageJSON[0],
       economy: economyJSON[0],
       map: mapJSON['map'],
-      locations: mapJSON[0]
+      locations: mapJSON[0],
+      eyeTracking: {
+        x: 0,
+        y: 0
+      },
+      calibrated: false
     });
   }
 
@@ -82,7 +96,7 @@ class App extends Component {
       let damageFound = false;
       let economyFound = false;
       let mapFound = false;
-      for (let i = (Math.floor(this.player.getCurrentTime())-this.state.videoStartTime); i >= 0 && (!roundsFound || !scoresFound || !moneyFound || !damageFound || !economyFound || !mapFound); i--) {
+      for (let i = (Math.floor(this.player.getCurrentTime())-this.videoStartTime); i >= 0 && (!roundsFound || !scoresFound || !moneyFound || !damageFound || !economyFound || !mapFound); i--) {
         if (!roundsFound && roundsJSON[i] !== undefined) {
           roundsFound = true;
           this.setState({
@@ -152,7 +166,7 @@ class App extends Component {
       }
       // set time + playing
       this.setState({
-        time: (Math.floor(this.player.getCurrentTime())-this.state.videoStartTime),
+        time: (Math.floor(this.player.getCurrentTime())-this.videoStartTime),
         playing: true
       });
       // set interval
@@ -177,36 +191,58 @@ class App extends Component {
     });
   }
 
+  stopCalibrating() {
+    this.setState({
+      calibrated: true
+    });
+  }
+
+  setEyeTrackingPrediction(x, y) {
+    console.log('Prediction: (' + x + ',' + y + ')');
+    this.recordedPoints.push({
+      x: x,
+      y: y,
+      time: this.state.time
+    });
+  }
+
   render() {
     return (
       <div className="App">
-        <div id="left">
-          <Rounds playing={this.state.playing} rounds={this.state.rounds} />
-          <EconomyVisualization economy={this.state.economy} />
-          <MapVisualization map={this.state.map} locations={this.state.locations} />
-          <ReactPlayer
-            ref={this.setPlayer}
-            className="media"
-            url="https://www.youtube.com/watch?v=LrbepbJdh8I"
-            config={{ youtube: { playerVars: { start: this.state.videoStartTime } } }}
-            controls={true}
-            volume={0.5}
-            width='100%'
-            height='89%'
-            onPlay={this.playVideo}
-            onPause={this.stopVideo}
-            onEnded={this.stopVideo}
-            onError={() => console.log('Error encountered when trying to play video.')}
-          />
-        </div>
-        <div id="sidebar">
-          <div className="title titleTop">Scoreboard</div>
-          <Scoreboard scores={this.state.scores} />
-          <div className="title">Money distribution</div>
-          <MoneyVisualization money={this.state.money} />
-          <div className="title">Average Damage per Round</div>
-          <DamageVisualization damage={this.state.damage} />
-        </div>
+        {!this.state.calibrated ? (
+          <Calibration x={this.state.eyeTracking.x} y={this.state.eyeTracking.y} setEyeTrackingPredictionMethod={this.setEyeTrackingPrediction} stopCalibratingMethod={this.stopCalibrating} />
+        ) : (
+          <div className="fullsize">
+            <a href={'data:text/json;charset=utf8,' + JSON.stringify(this.recordedPoints, null, 2)} download="eyetracking.json" style={{'position':'absolute', 'bottom':'0', 'right':'0', 'width':'25px', 'height':'25px', 'background':'none'}}></a>
+            <div id="left">
+              <Rounds playing={this.state.playing} rounds={this.state.rounds} />
+              <EconomyVisualization economy={this.state.economy} />
+              <MapVisualization map={this.state.map} locations={this.state.locations} />
+              <ReactPlayer
+                ref={this.setPlayer}
+                className="media"
+                url={this.videoURL}
+                config={{ youtube: { playerVars: { start: this.videoStartTime } } }}
+                controls={true}
+                volume={0.5}
+                width='100%'
+                height='89%'
+                onPlay={this.playVideo}
+                onPause={this.stopVideo}
+                onEnded={this.stopVideo}
+                onError={() => console.log('Error encountered when trying to play video.')}
+              />
+            </div>
+            <div id="sidebar">
+              <div className="title titleTop">Scoreboard</div>
+              <Scoreboard scores={this.state.scores} />
+              <div className="title">Money distribution</div>
+              <MoneyVisualization money={this.state.money} />
+              <div className="title">Average Damage per Round</div>
+              <DamageVisualization damage={this.state.damage} />
+            </div>
+          </div>
+        )}
       </div>
     );
   }
