@@ -198,7 +198,12 @@ class App extends Component {
   }
 
   setEyeTrackingPrediction(x, y) {
-    console.log('Prediction: (' + x + ',' + y + ')');
+    this.setState({
+      eyeTracking: {
+        x: x,
+        y: y
+      }
+    });
     this.recordedPoints.push({
       x: x,
       y: y,

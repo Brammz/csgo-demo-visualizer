@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 import './style.css';
-import './bootstrap.css';
 import $ from 'jquery';
 import swal from 'sweetalert';
-import {sleep} from './utility.js';
-import EyeTracker from './eye.tracker';
-import image from './webgazer.png';
+import {sleep} from "./utility";
+import './bootstrap.css';
+import EyeTracker from "./eye.tracker";
 
 let pointCalibrate = 0;
 let calibrationPoints = {};
@@ -462,7 +461,7 @@ class Calibration extends Component {
                                 key={'modalBody'}
                                 className={'modal-body'}
                             >
-                                <img src={image} width={'100%'} height={'100%'} alt={'webgazer demo instructions'}/>
+                                <img src={'webgazer.png'} width={'100%'} height={'100%'} alt={'webgazer demo instructions'}/>
                             </div>
                             <div
                                 key={'modalFooter'}
