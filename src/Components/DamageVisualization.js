@@ -17,6 +17,7 @@ class DamageVisualization extends Component {
       xAxis.push(t.name);
       data.push({
         y: (Math.round(t.adr * 100) / 100),
+        name: t.name,
         damage: t.damage,
         color: '#F0C557'
       });
@@ -26,6 +27,7 @@ class DamageVisualization extends Component {
       xAxis.push(ct.name);
       data.push({
         y: (Math.round(ct.adr * 100) / 100),
+        name: ct.name,
         damage: ct.damage,
         color: '#88C3F3'
       });
@@ -78,7 +80,7 @@ class DamageVisualization extends Component {
       },
       tooltip: {
         formatter: function() {
-          return '<b>' + this.point.key + '</b><br />ADR: ' + this.point.y + '<br />Damage: ' + this.point.damage;
+          return '<b>' + this.point.name + '</b><br />ADR: ' + this.point.y + '<br />Damage: ' + this.point.damage;
         }
       },
       series: [{

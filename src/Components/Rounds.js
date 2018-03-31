@@ -17,7 +17,7 @@ class Rounds extends Component {
           image = (<img src={defuse} className="winReason" alt="defuse" />)
         } else if (rounds[i-1].reason === 'terrorists_killed' || rounds[i-1].reason === 'cts_killed') {
           image = (<img src={kills} className="winReason" alt="kills" />)
-        } else if (rounds[i-1].reason === 'bomb_planted') {
+        } else if (rounds[i-1].reason === 'target_bombed') {
           image = (<img src={plant} className="winReason" alt="plant" />)
         } else if (rounds[i-1].reason === 'target_saved') {
           image = (<img src={time} className="winReason" alt="time" />)
