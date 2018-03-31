@@ -11,13 +11,13 @@ This tool is developed as part of my master's thesis at the KULeuven, Belgium.
 
 ## Technologies used
 
-* [React](https://reactjs.org/) - JavaScript library used for the web development.
-* [React-player](https://github.com/CookPete/react-player) - Used for playing and controlling the video.
-* [React-Highcharts](https://github.com/kirjs/react-highcharts) - [Highcharts](https://www.highcharts.com/) component used for different visualizations
-* [React-Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/) - Used for styling and money visualizations
-* [React-circular-progressbar](http://www.kevinqi.com/react-circular-progressbar/) - User for accuracy visualization
-* [demofile](https://github.com/saul/demofile) - Node.js library to parse CSGO demo-files
-* [gamevis](https://github.com/saul/gamevis/tree/master/overviews/csgo) - Used for map images and info
+* [React](https://reactjs.org/) ([under MIT license](https://github.com/facebook/react/blob/master/LICENSE)) - JavaScript library used for the web development.
+* [React-player](https://github.com/CookPete/react-player) ([under MIT license](https://github.com/CookPete/react-player/blob/master/LICENSE.md)) - Used for playing and controlling the video.
+* [React-Highcharts](https://github.com/kirjs/react-highcharts) ([under MIT license](https://github.com/kirjs/react-highcharts/blob/master/LICENSE)) - [Highcharts](https://www.highcharts.com/) component used for different visualizations
+* [React-Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/) ([under MIT license](https://github.com/react-bootstrap/react-bootstrap/blob/master/LICENSE)) - Used for styling and money visualizations
+* [React-circular-progressbar](http://www.kevinqi.com/react-circular-progressbar/) ([under MIT license](https://github.com/iqnivek/react-circular-progressbar/blob/master/LICENSE)) - User for accuracy visualization
+* [demofile](https://github.com/saul/demofile) ([under MIT license](https://github.com/saul/demofile/blob/master/LICENSE)) - Node.js library to parse CSGO demo-files
+* [gamevis](https://github.com/saul/gamevis/tree/master/overviews/csgo) ([under MIT license](https://github.com/saul/gamevis/tree/master/overviews/csgo)) - Used for map images and info
 
 ## Information parsing
 
