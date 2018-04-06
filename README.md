@@ -1,8 +1,18 @@
 # CSGO Demo Visualizer
 
-This tool visualizes different statistic from CSGO demo-files to aid the viewer in better understanding what happened.
+CSGO Demo Visualizer is a dashboard designed to aid CSGO spectators in better understanding the match and gaining a deeper insight, that can also help them learn for personal improvement.
+This is done by showing a VOD of a match and using data from the corresponding replay-file (.dem) of that match.
 
-This tool is developed as part of my master's thesis at the KULeuven, Belgium.
+The dashboard consists of 7 different components:
+* Stream: This is a VOD of a match. This is currently imported as a YouTube video, but Facebook, Vimeo, Twitch, Daily Motion, ... videos are also supported.
+* Rounds visualization: This visualization shows the 30 rounds that can be played. The active round blinks with a red border. Played rounds will be indicated with the corresponding color of the winning team and an icon to indicate how the round was won.
+* Economy visualization: This visualization is a line chart that shows the account values of the teams at the start of each round. It is not shown by default.
+* Map visualization: This visualization shows the locations of kills, deaths and all types of grenades on an image of the map. It can show the locations for both teams or only one team at the same time. It is no shown by default.
+* Scoreboard: The scoreboard shows the teams that are competing and for each team all the players. For each player it shows their name, how much money they currently have in their account, their K/A/D and their headshot ratio (percentage of kills that were with a headshot).
+* Money distribution: This visualization compares the total account values of both team and the total equipment values of both teams.
+* Average Damage per Round: This visualization shows for each player the average damage they dealt in the played rounds.
+
+This dashboard is developed as part of my master's thesis at the KULeuven, Belgium.
 
 ## TODO
 
@@ -23,12 +33,12 @@ This tool is developed as part of my master's thesis at the KULeuven, Belgium.
 
 The demo-files need to be parsed first. Parsing is currently done using [demofile](https://github.com/saul/demofile).
 The parser is in [another project](https://github.com/Brammz/csgo-demofile-parser) (due to errors when using [demofile](https://github.com/saul/demofile) in combination with [React](https://reactjs.org/)).
-The parser parses the replay-file and creates a json-file for each visualization.
-Each json-file consists of timestamps at which the information was updated, followed by all the information that is needed to create the corresponding visualization.
+The parser parses the replay-file and creates a JSON-file for each visualization.
+Each JSON-file consists of timestamps at which the information was updated, followed by all the information that is needed to create the corresponding visualization.
 
 
 ## Notes
 
-* As the event `buytime_ended` is not working, updates for the account and equipemnt value might be delayed.
+* As the event `buytime_ended` is not working, updates for the account and equipment value might be delayed.
 * Damage and ADR are currently only damage to the health of a person and don't include damage to armor.
 * Headshot percentage is only updated at the end of each round.
