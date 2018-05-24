@@ -45,7 +45,7 @@ class App extends Component {
         x: 0,
         y: 0
       },
-      calibrated: false
+      calibrated: true
     };
     this.videoStartTime = 558;
     this.videoURL = 'https://www.youtube.com/watch?v=LrbepbJdh8I';
@@ -72,7 +72,7 @@ class App extends Component {
         x: 0,
         y: 0
       },
-      calibrated: false
+      calibrated: true
     });
   }
 

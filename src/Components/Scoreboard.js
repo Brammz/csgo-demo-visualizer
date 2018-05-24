@@ -17,12 +17,12 @@ class Scoreboard extends Component {
             <br />
             ${t.account}
           </div>
-          <div className="TC2 middle-text">
+          <div className="TC2 middle-text" title="K / A / D">
             <strong>{t.name}</strong><br/>
             {t.kills} / {t.assists} / {t.deaths}
           </div>
           <div className="TC3">
-            <div className="right-float" style={{width: '50%', 'marginTop': '7px'}}>
+            <div className="right-float" style={{width: '50%', 'marginTop': '7px'}} title="Headshot Ratio">
               <CircularProgressbar percentage={t.hsPercentage} strokeWidth="10" />
             </div>
           </div>
@@ -34,11 +34,11 @@ class Scoreboard extends Component {
       ctScores.push(
         <div key={ct.name} className="player">
           <div className="TC3">
-            <div className="left-float" style={{width: '50%', 'marginTop': '7px'}}>
+            <div className="left-float" style={{width: '50%', 'marginTop': '7px'}} title="Headshot Ratio">
               <CircularProgressbar percentage={ct.hsPercentage} strokeWidth="10" />
             </div>
           </div>
-          <div className="TC2 middle-text">
+          <div className="TC2 middle-text" title="K / A / D">
             <strong>{ct.name}</strong><br/>
             {ct.kills} / {ct.assists} / {ct.deaths}
           </div>

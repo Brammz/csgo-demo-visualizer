@@ -14,6 +14,10 @@ The dashboard consists of 7 different components:
 
 This dashboard is developed as part of my master's thesis at the KULeuven, Belgium.
 
+## Screenshot
+
+[[https://github.com/Brammz/csgo-demo-visualizer/blob/master/screenshot.png]|alt=screenshot]
+
 ## TODO
 
 * Economy store active lines
