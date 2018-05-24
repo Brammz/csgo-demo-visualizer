@@ -16,7 +16,7 @@ This dashboard is developed as part of my master's thesis at the KULeuven, Belgi
 
 ## Screenshot
 
-[[https://github.com/Brammz/csgo-demo-visualizer/blob/master/screenshot.png]|alt=screenshot]
+![CSGO Demo Visualizer](screenshot.png)
 
 ## TODO
 
