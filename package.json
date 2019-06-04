@@ -4,15 +4,15 @@
   "private": true,
   "dependencies": {
     "d3": "^4.12.2",
-    "jquery": "^3.3.1",
-    "react": "^16.2.0",
-    "react-bootstrap": "^0.32.0",
+    "jquery": "^3.4.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^0.32.4",
     "react-circular-progressbar": "^0.6.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.8.6",
     "react-highcharts": "^16.0.2",
-    "react-player": "^1.2.1",
+    "react-player": "^1.11.0",
     "react-scripts": "1.1.0",
-    "sweetalert": "^2.1.0"
+    "sweetalert": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",

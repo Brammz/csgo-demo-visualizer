@@ -104,7 +104,7 @@ class EconomyVisualization extends Component {
         series: {
           events: {
             legendItemClick: function(e) {
-              //let lineId = e.target.userOptions.id;
+              let lineId = e.target.userOptions.id;
               /*
               if (lineId === 'terroristsAccountData') {
                 this.setState({
@@ -138,6 +138,15 @@ class EconomyVisualization extends Component {
           symbol: 'circle'
         }
       }, {
+        id: 'terroristsSpendData',
+        name: 'Spend value (T)',
+        data: terroristsSpendData,
+        color: '#F9E3AD',
+        visible: this.state.terroristsSpendDataShown,
+        marker: {
+          symbol: 'triangle-down'
+        }
+      }, {
         id: 'ctsAccountData',
         name: 'Start value (CT)',
         data: ctsAccountData,
@@ -145,6 +154,15 @@ class EconomyVisualization extends Component {
         visible: this.state.ctsAccountDataShown,
         marker: {
           symbol: 'circle'
+        }
+      }, {
+        id: 'ctsSpendData',
+        name: 'Spend value (CT)',
+        data: ctsSpendData,
+        color: '#C3E3FD',
+        visible: this.state.ctsSpendDataShown,
+        marker: {
+          symbol: 'triangle-down'
         }
       }]
     }
